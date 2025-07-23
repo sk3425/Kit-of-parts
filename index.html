@@ -344,6 +344,32 @@
       </div>
     </div>
   </div>
+   <!-- Legend -->
+  <div id="legend">
+    <h4>Street Elements Legend</h4>
+    <div class="legend-item"><div class="legend-color" style="background-color: #e74c3c;"></div>Fire Hydrant</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #3498db;"></div>Bench</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #2ecc71;"></div>Tree/Tree pit</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #f39c12;"></div>Light/Lighting</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #9b59b6;"></div>Traffic/Signals</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #1abc9c;"></div>Trash/Trashcan</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #34495e;"></div>Entry/Entrance</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #e67e22;"></div>Construction</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #95a5a6;"></div>Fence</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #f1c40f;"></div>Signage/Poles</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #8e44ad;"></div>Mailbox/Mail</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #d35400;"></div>Bike/Citibike/Rack</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #c0392b;"></div>Parking</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #16a085;"></div>Furniture</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #7f8c8d;"></div>Manhole</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #27ae60;"></div>Plantation</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #2980b9;"></div>Busstop</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #8b4513;"></div>Stoop/Staircase</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #ff6b6b;"></div>Front/Yard</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #4ecdc4;"></div>Newspaper box</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #45b7d1;"></div>Bag</div>
+    <div class="legend-item"><div class="legend-color" style="background-color: #888888;"></div>Other</div>
+  </div>
   <!-- E120th Street Challenge Overlay -->
   <div id="challenge-overlay-e120">
     <div class="challenge-box">
@@ -460,6 +486,114 @@
     });
     let currentStreet = '';
     let currentTime = '';
+    
+    // Comprehensive color mapping for all street elements
+    function getElementColor(element) {
+      const elementLower = element.toLowerCase();
+      
+      // Fire Hydrant variations
+      if (elementLower.includes('hydrant') || elementLower.includes('fire')) {
+        return '#e74c3c'; // Red
+      }
+      
+      // Bench variations
+      if (elementLower.includes('bench')) {
+        return '#3498db'; // Blue
+      }
+      
+      // Tree variations
+      if (elementLower.includes('tree') || elementLower.includes('pit')) {
+        return '#2ecc71'; // Green
+      }
+      
+      // Light variations
+      if (elementLower.includes('light')) {
+        return '#f39c12'; // Orange
+      }
+      
+      // Traffic variations
+      if (elementLower.includes('traffic') || elementLower.includes('signal')) {
+        return '#9b59b6'; // Purple
+      }
+      
+      // Trash variations
+      if (elementLower.includes('trash') || elementLower.includes('bag')) {
+        return '#1abc9c'; // Turquoise
+      }
+      
+      // Entry/Entrance variations
+      if (elementLower.includes('entry') || elementLower.includes('entrance') || elementLower.includes('stoop')) {
+        return '#34495e'; // Dark Blue-Gray
+      }
+      
+      // Construction
+      if (elementLower.includes('construction')) {
+        return '#e67e22'; // Dark Orange
+      }
+      
+      // Fence
+      if (elementLower.includes('fence')) {
+        return '#95a5a6'; // Gray
+      }
+      
+      // Signage/Poles
+      if (elementLower.includes('signage') || elementLower.includes('pole')) {
+        return '#f1c40f'; // Yellow
+      }
+      
+      // Mail variations
+      if (elementLower.includes('mail') || elementLower.includes('box')) {
+        return '#8e44ad'; // Dark Purple
+      }
+      
+      // Bike variations
+      if (elementLower.includes('bike') || elementLower.includes('cycle') || elementLower.includes('rack')) {
+        return '#d35400'; // Dark Orange
+      }
+      
+      // Parking
+      if (elementLower.includes('parking')) {
+        return '#c0392b'; // Dark Red
+      }
+      
+      // Furniture
+      if (elementLower.includes('furniture')) {
+        return '#16a085'; // Dark Turquoise
+      }
+      
+      // Manhole
+      if (elementLower.includes('manhole')) {
+        return '#7f8c8d'; // Gray
+      }
+      
+      // Plantation
+      if (elementLower.includes('plantation')) {
+        return '#27ae60'; // Forest Green
+      }
+      
+      // Bus stop
+      if (elementLower.includes('bus')) {
+        return '#2980b9'; // Dark Blue
+      }
+      
+      // Staircase
+      if (elementLower.includes('stair')) {
+        return '#8b4513'; // Brown
+      }
+      
+      // Front/Yard
+      if (elementLower.includes('front') || elementLower.includes('yard')) {
+        return '#ff6b6b'; // Light Red
+      }
+      
+      // Newspaper box
+      if (elementLower.includes('newspaper')) {
+        return '#4ecdc4'; // Light Turquoise
+      }
+      
+      // Other/default
+      return '#888888'; // Gray
+    }
     // Kit of parts data for each street
     const kitOfParts = {
       'E120th Street': {
@@ -498,41 +632,143 @@
         type: 'geojson',
         data: 'data/East_Harlem_final_fixed.geojson'
       });
+      
       map.addLayer({
         id: 'elements',
         type: 'circle',
         source: 'streets',
         paint: {
           'circle-radius': 6,
-'circle-color': [
-  'match',
-  ['get', 'Street Elements'],
-  'Fire Hydrant', '#d7191c',
-  'Bench', '#2b83ba',
-  'Tree/Tree pit', '#1a9641',
-  'Light/Lighting', '#fdae61',
-  'Traffic/Signals', '#d9ef8b',
-  'Trash/Trashcan', '#66bd63',
-  'Entry/Entrance', '#a6d96a',
-  'Construction', '#f46d43',
-  'Fence', '#fdb863',
-  'Signage/Poles', '#fee08b',
-  'Mailbox/Mail', '#e66101',
-  'Bike/Citibike/Rack', '#b2182b',
-  'Parking', '#878787',
-  'Furniture', '#80cdc1',
-  'Manhole', '#3288bd',
-  'Plantation', '#c2e699',
-  'Busstop', '#9e0142',
-  'Stoop/Staircase', '#d53e4f',
-  'Front/Yard', '#fddbc7',
-  'Newspaper box', '#a50026',
-  'Bag', '#5e4fa2',
-  'Other', '#999999',
-  '#cccccc' // default
-]
+          'circle-color': [
+            'case',
+            ['has', 'Street Elements'],
+            [
+              'case',
+              // Fire Hydrant (Red)
+              ['any',
+                ['in', 'hydrant', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'fire', ['downcase', ['get', 'Street Elements']]]
+              ], '#e74c3c',
+              
+              // Bench (Blue)
+              ['in', 'bench', ['downcase', ['get', 'Street Elements']]], '#3498db',
+              
+              // Tree/Tree pit (Green)
+              ['any',
+                ['in', 'tree', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'pit', ['downcase', ['get', 'Street Elements']]]
+              ], '#2ecc71',
+              
+              // Light (Orange)
+              ['in', 'light', ['downcase', ['get', 'Street Elements']]], '#f39c12',
+              
+              // Traffic/Signals (Purple)
+              ['any',
+                ['in', 'traffic', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'signal', ['downcase', ['get', 'Street Elements']]]
+              ], '#9b59b6',
+              
+              // Trash (Turquoise)
+              ['any',
+                ['in', 'trash', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'bag', ['downcase', ['get', 'Street Elements']]]
+              ], '#1abc9c',
+              
+              // Entry/Entrance (Dark Blue-Gray)
+              ['any',
+                ['in', 'entry', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'entrance', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'stoop', ['downcase', ['get', 'Street Elements']]]
+              ], '#34495e',
+              
+              // Construction (Dark Orange)
+              ['in', 'construction', ['downcase', ['get', 'Street Elements']]], '#e67e22',
+              
+              // Fence (Gray)
+              ['in', 'fence', ['downcase', ['get', 'Street Elements']]], '#95a5a6',
+              
+              // Signage/Poles (Yellow)
+              ['any',
+                ['in', 'signage', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'pole', ['downcase', ['get', 'Street Elements']]]
+              ], '#f1c40f',
+              
+              // Mail (Dark Purple)
+              ['any',
+                ['in', 'mail', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'box', ['downcase', ['get', 'Street Elements']]]
+              ], '#8e44ad',
+              
+              // Bike (Dark Orange)
+              ['any',
+                ['in', 'bike', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'cycle', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'rack', ['downcase', ['get', 'Street Elements']]]
+              ], '#d35400',
+              
+              // Parking (Dark Red)
+              ['in', 'parking', ['downcase', ['get', 'Street Elements']]], '#c0392b',
+              
+              // Furniture (Dark Turquoise)
+              ['in', 'furniture', ['downcase', ['get', 'Street Elements']]], '#16a085',
+              
+              // Manhole (Gray)
+              ['in', 'manhole', ['downcase', ['get', 'Street Elements']]], '#7f8c8d',
+              
+              // Plantation (Forest Green)
+              ['in', 'plantation', ['downcase', ['get', 'Street Elements']]], '#27ae60',
+              
+              // Bus stop (Dark Blue)
+              ['in', 'bus', ['downcase', ['get', 'Street Elements']]], '#2980b9',
+              
+              // Staircase (Brown)
+              ['in', 'stair', ['downcase', ['get', 'Street Elements']]], '#8b4513',
+              
+              // Front/Yard (Light Red)
+              ['any',
+                ['in', 'front', ['downcase', ['get', 'Street Elements']]],
+                ['in', 'yard', ['downcase', ['get', 'Street Elements']]]
+              ], '#ff6b6b',
+              
+              // Newspaper box (Light Turquoise)
+              ['in', 'newspaper', ['downcase', ['get', 'Street Elements']]], '#4ecdc4',
+              
+              // Default (Gray)
+              '#888888'
+            ],
+            '#ccc'
+          ],
+          'circle-stroke-width': 1,
+          'circle-stroke-color': '#fff'
         }
       });
+
+          map.addLayer({
+  id: 'labels',
+  type: 'symbol',
+  source: 'streets',
+  layout: {
+    'text-field': ['get', 'Street Elements'],
+    'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+    'text-size': [
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      14, 8,   // at zoom 14: size 8 (very small)
+      18, 18   // at zoom 18: size 18 (larger)
+    ],
+    'text-offset': [0, 1.2],
+    'text-anchor': 'top'
+  },
+  paint: {
+    'text-color': '#222',
+    'text-halo-color': '#fff',
+    'text-halo-width': 1.2
+  }
+});
+      
+    
+      
       map.on('click', 'elements', (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
         const label = e.features[0].properties["Street Elements"] || "Unknown";
@@ -541,16 +777,12 @@
           .setHTML(`<strong>${label}</strong>`)
           .addTo(map);
       });
+      
       map.on('mouseenter', 'elements', () => map.getCanvas().style.cursor = 'pointer');
       map.on('mouseleave', 'elements', () => map.getCanvas().style.cursor = '');
     });
-    function enterApp() {
-  const opening = document.getElementById('opening-screen');
-  opening.classList.add('slide-up');
-  setTimeout(() => {
-    opening.style.display = 'none';
-  }, 1000); // same as transition duration
-}
+
+
 
     function handleStreet(name) {
       console.log('Street clicked:', name);
@@ -705,6 +937,14 @@
       document.getElementById('challenge-overlay-pleasant').style.display = 'none';
       document.getElementById('kit-overlay').style.display = 'none';
     }
+    function enterApp() {
+  const openingScreen = document.getElementById('opening-screen');
+  openingScreen.classList.add('slide-up');
+  setTimeout(() => {
+    openingScreen.style.display = 'none';
+  }, 1000); // Matches the CSS transition duration
+}
+
   </script>
 </body>
 </html>
