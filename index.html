@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>East Harlem: Street Elements Explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: sans-serif;
+    }
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background: #333;
+      color: #fff;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      box-sizing: border-box;
+    }
+    #map {
+      position: absolute;
+      top: 50px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    #sidebar {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 180px;
+      background: #eee;
+      padding: 1rem;
+      z-index: 3;
+      height: calc(100% - 50px);
+      overflow-y: auto;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+    }
+    #sidebar button {
+      display: block;
+      margin-bottom: 0.5rem;
+      width: 100%;
+      padding: 0.3rem;
+      background: #F4D03F;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+    #time-overlay, #challenge-overlay-e120, #challenge-overlay-125, #challenge-overlay-pleasant, #kit-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.6);
+      display: none;
+      z-index: 10;
+      justify-content: center;
+      align-items: center;
+    }
+    .time-box, .challenge-box, .kit-box {
+      background: white;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    }
+    .challenge-box, .kit-box {
+      max-width: 700px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    .school-images, .street-images {
+      display: flex;
+      justify-content: space-around;
+      margin: 1.5rem 0;
+      gap: 1.5rem;
+    }
+    .school-image, .street-image {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .street-image-large {
+      width: 200px;
+      height: 135px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .challenge-icons {
+      display: flex;
+      justify-content: space-around;
+      margin: 1.5rem 0;
+      gap: 1rem;
+      border-top: 1px solid #ddd;
+      padding-top: 1rem;
+    }
+    .challenge-item {
+      cursor: pointer;
+      padding: 1rem;
+      border-radius: 8px;
+      transition: background-color 0.2s;
+      flex: 1;
+      text-align: center;
+    }
+    .challenge-item:hover {
+      background-color: #f0f0f0;
+    }
+    .challenge-item img {
+      display: block;
+      margin: 0 auto 0.5rem;
+      border-radius: 5px;
+    }
+    .challenge-item p {
+      margin: 0;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+    .time-box h3, .challenge-box h3, .kit-box h3 {
+      margin-top: 0;
+    }
+    .options button {
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      background: #F4D03F;
+      border: none;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+    .cancel-button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #F4D03F;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .fix-it-button {
+      margin-top: 1.5rem;
+      padding: 1rem 2rem;
+      background: #F4D03F;
+      color: #333;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .fix-it-button:hover {
+      background: #F1C40F;
+    }
+    
+    /* Card deck styles */
+    .card-deck {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0;
+      perspective: 1000px;
+      min-height: 200px;
+    }
+    .card-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .kit-card {
+      width: 140px;
+      height: 130px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .kit-card.flipped {
+      transform: rotateY(180deg);
+    }
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .card-front {
+      background: #F4D03F;
+      color: white;
+    }
+    .card-back {
+      transform: rotateY(180deg);
+      padding: 0.5rem;
+    }
+    .card-back img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .kit-info {
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 4px solid #F4D03F;
+    }
+    .kit-info h4 {
+      margin: 0 0 0.5rem 0;
+      color: #B7950B;
+    }
+    .kit-info p {
+      margin: 0;
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>East Harlem: Street Elements Explorer</h1>
+  </header>
+  <div id="map"></div>
+  <div id="sidebar">
+    <h3>Street Elements</h3>
+    <button onclick="handleStreet('E120th Street')">E120th Street (31)</button>
+    <button onclick="handleStreet('125th Street')">125th Street (19)</button>
+    <button onclick="handleStreet('Pleasant Ave')">Pleasant Ave (29)</button>
+  </div>
+  <div id="time-overlay">
+    <div class="time-box">
+      <h3>🌇 Select Time of Day</h3>
+      <div class="options">
+        <button onclick="selectTime('Morning')">🌞 Morning</button>
+        <button onclick="selectTime('Afternoon')">☀️ Afternoon</button>
+        <button onclick="selectTime('Evening')">🌙 Evening</button>
+      </div>
+    </div>
+  </div>
+  <!-- E120th Street Challenge Overlay -->
+  <div id="challenge-overlay-e120">
+    <div class="challenge-box">
+      <h3>🎯 E120th Street Challenges</h3>
+      
+      <div class="school-images">
+        <img src="images/school 1.JPG" alt="School 1" class="school-image" />
+        <img src="images/school 2.JPG" alt="School 2" class="school-image" />
+      </div>
+      
+      <div class="challenge-icons">
+        <div class="challenge-item" onclick="selectChallenge('construction')">
+          <img src="images/construction zone.jpg" alt="Construction Zone" width="60" />
+          <p>Construction</p>
+        </div>
+        <div class="challenge-item" onclick="selectChallenge('transparency')">
+          <img src="images/lack of transparency.png" alt="Lack of Transparency" width="60" />
+          <p>Transparency</p>
+        </div>
+        <div class="challenge-item" onclick="selectChallenge('parking')">
+          <img src="images/parked cars.png" alt="Parked Cars" width="60" />
+          <p>Parking</p>
+        </div>
+      </div>
+      
+      <button class="fix-it-button" onclick="showKitOfParts()">🔧 LET'S FIX IT!</button>
+      <button class="cancel-button" onclick="closeAllOverlays()">Cancel</button>
+    </div>
+  </div>
+  <!-- 125th Street Challenge Overlay -->
+  <div id="challenge-overlay-125">
+    <div class="challenge-box">
+      <h3>🎯 125th Street Challenges</h3>
+      
+      <div class="street-images">
+        <img src="images/125a.JPG" alt="125th Street A" class="street-image-large" />
+        <img src="images/125b.JPG" alt="125th Street B" class="street-image-large" />
+        <img src="images/125c.JPG" alt="125th Street C" class="street-image-large" />
+        <img src="images/125d.JPG" alt="125th Street D" class="street-image-large" />
+      </div>
+      
+      <div class="challenge-icons">
+        <div class="challenge-item" onclick="selectChallenge('no-bus-shelter')">
+          <img src="images/no bus shelter.png" alt="No Bus Shelter" width="60" />
+          <p>No Bus Shelter</p>
+        </div>
+        <div class="challenge-item" onclick="selectChallenge('high-speed')">
+          <img src="images/high speed.png" alt="High Speed" width="60" />
+          <p>High Speed</p>
+        </div>
+        <div class="challenge-item" onclick="selectChallenge('drug-users')">
+          <img src="images/drug users.png" alt="Drug Users" width="60" />
+          <p>Drug Users</p>
+        </div>
+        <div class="challenge-item" onclick="selectChallenge('lack-accessibility')">
+          <img src="images/lack of accessibility.png" alt="Lack of Accessibility" width="60" />
+          <p>Lack of Accessibility</p>
+        </div>
+        <div class="challenge-item" onclick="selectChallenge('construction-zone')">
+          <img src="images/construction zone.jpg" alt="Construction Zone" width="60" />
+          <p>Construction Zone</p>
+        </div>
+      </div>
+      
+      <button class="fix-it-button" onclick="showKitOfParts()">🔧 LET'S FIX IT!</button>
+      <button class="cancel-button" onclick="closeAllOverlays()">Cancel</button>
+    </div>
+  </div>
+  <!-- Pleasant Ave Challenge Overlay -->
+  <div id="challenge-overlay-pleasant">
+    <div class="challenge-box">
+      <h3 id="pleasant-title">🎯 Pleasant Ave Challenges</h3>
+      
+      <div class="street-images" id="pleasant-images">
+        <!-- Images will be populated by JavaScript based on time selection -->
+      </div>
+      
+      <div class="challenge-icons" id="pleasant-challenges">
+        <!-- Challenge icons will be populated by JavaScript based on time selection -->
+      </div>
+      
+      <button class="fix-it-button" onclick="showKitOfParts()">🔧 LET'S FIX IT!</button>
+      <button class="cancel-button" onclick="closeAllOverlays()">Cancel</button>
+    </div>
+  </div>
+  <!-- Kit of Parts Overlay -->
+  <div id="kit-overlay">
+    <div class="kit-box">
+      <h3 id="kit-title">🛠️ Kit of Parts for E120th Street</h3>
+      <div class="kit-info">
+        <h4>Transform Your Street!</h4>
+        <p>Use these kit of parts modules as opportunities to bring safety, create third spaces, and invite play!</p>
+      </div>
+      
+      <div class="card-deck">
+        <div class="card-container" id="card-container">
+          <!-- Cards will be dynamically generated -->
+        </div>
+      </div>
+      
+      <p style="margin-top: 1rem; color: #666;">Click on each card to reveal the kit of parts module!</p>
+      
+      <button class="cancel-button" onclick="closeAllOverlays()">Back to Map</button>
+    </div>
+  </div>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2szNDI1IiwiYSI6ImNtNmpmeTVnYzAwaTEyaXE4ZWZ4OG9yazIifQ.TsQiMmufb4nsdomDobl1nA';
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/sk3425/cm6o41tya01b701qmdpu9boh5',
+      center: [-73.935, 40.800],
+      zoom: 14
+    });
+    let currentStreet = '';
+    let currentTime = '';
+    // Kit of parts data for each street
+    const kitOfParts = {
+      'E120th Street': {
+        count: 31,
+        cards: [
+          { name: 'A', image: 'A.PNG' },
+          { name: 'B', image: 'B.PNG' },
+          { name: 'C', image: 'C.PNG' },
+          { name: 'D', image: 'D.JPG' },
+          { name: 'E', image: 'E.JPG' }
+        ]
+      },
+      '125th Street': {
+        count: 19,
+        cards: [
+          { name: 'A', image: 'A.PNG' },
+          { name: 'B', image: 'B.PNG' },
+          { name: 'C', image: 'C.PNG' },
+          { name: 'D', image: 'D.JPG' },
+          { name: 'E', image: 'E.JPG' }
+        ]
+      },
+      'Pleasant Ave': {
+        count: 29,
+        cards: [
+          { name: 'A', image: 'A.PNG' },
+          { name: 'B', image: 'B.PNG' },
+          { name: 'C', image: 'C.PNG' },
+          { name: 'D', image: 'D.JPG' },
+          { name: 'E', image: 'E.JPG' }
+        ]
+      }
+    };
+    map.on('load', () => {
+      map.addSource('streets', {
+        type: 'geojson',
+        data: 'data/East_Harlem_final_fixed.geojson'
+      });
+      map.addLayer({
+        id: 'elements',
+        type: 'circle',
+        source: 'streets',
+        paint: {
+          'circle-radius': 6,
+          'circle-color': [
+            'match',
+            ['get', 'Street Elements'],
+            'Tree pit', '#f28cb1',
+            'Hydrant', '#f1f075',
+            'Bench', '#51bbd6',
+            'Entry', '#223b53',
+            'Entry Front yard', '#e87d3e',
+            '#ccc'
+          ]
+        }
+      });
+      map.on('click', 'elements', (e) => {
+        const coordinates = e.features[0].geometry.coordinates.slice();
+        const label = e.features[0].properties["Street Elements"] || "Unknown";
+        new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(`<strong>${label}</strong>`)
+          .addTo(map);
+      });
+      map.on('mouseenter', 'elements', () => map.getCanvas().style.cursor = 'pointer');
+      map.on('mouseleave', 'elements', () => map.getCanvas().style.cursor = '');
+    });
+    function handleStreet(name) {
+      console.log('Street clicked:', name);
+      currentStreet = name;
+      const overlay = document.getElementById('time-overlay');
+      overlay.style.display = 'flex';
+    }
+    function selectTime(timeOfDay) {
+      console.log('Time selected:', timeOfDay);
+      currentTime = timeOfDay;
+      const timeOverlay = document.getElementById('time-overlay');
+      timeOverlay.style.display = 'none';
+      
+      // Show appropriate challenge overlay based on street
+      if (currentStreet === 'E120th Street') {
+        document.getElementById('challenge-overlay-e120').style.display = 'flex';
+      } else if (currentStreet === '125th Street') {
+        document.getElementById('challenge-overlay-125').style.display = 'flex';
+      } else if (currentStreet === 'Pleasant Ave') {
+        setupPleasantAveOverlay(timeOfDay);
+        document.getElementById('challenge-overlay-pleasant').style.display = 'flex';
+      }
+    }
+    function setupPleasantAveOverlay(timeOfDay) {
+      const imagesContainer = document.getElementById('pleasant-images');
+      const challengesContainer = document.getElementById('pleasant-challenges');
+      
+      if (timeOfDay === 'Evening') {
+        // Evening: Show Evening PA.jpg with lack of seating and lack of shade icons
+        imagesContainer.innerHTML = `
+          <img src="images/Evening PA.jpg" alt="Pleasant Ave Evening" class="street-image-large" />
+        `;
+        
+        challengesContainer.innerHTML = `
+          <div class="challenge-item" onclick="selectChallenge('lack-seating')">
+            <img src="images/lack of seating.png" alt="Lack of Seating" width="60" />
+            <p>Lack of Seating</p>
+          </div>
+          <div class="challenge-item" onclick="selectChallenge('lack-shade')">
+            <img src="images/lack of shade.png" alt="Lack of Shade" width="60" />
+            <p>Lack of Shade</p>
+          </div>
+        `;
+      } else {
+        // Morning/Afternoon: Show PAa, PAb, PAc, PAd with lack of seating, activities, and shade icons
+        imagesContainer.innerHTML = `
+          <img src="images/PAa.JPG" alt="Pleasant Ave A" class="street-image-large" />
+          <img src="images/PAb.JPG" alt="Pleasant Ave B" class="street-image-large" />
+          <img src="images/PAc.JPG" alt="Pleasant Ave C" class="street-image-large" />
+          <img src="images/PAd.JPG" alt="Pleasant Ave D" class="street-image-large" />
+        `;
+        
+        challengesContainer.innerHTML = `
+          <div class="challenge-item" onclick="selectChallenge('lack-seating')">
+            <img src="images/lack of seating.png" alt="Lack of Seating" width="60" />
+            <p>Lack of Seating</p>
+          </div>
+          <div class="challenge-item" onclick="selectChallenge('lack-activities')">
+            <img src="images/lack of activities.png" alt="Lack of Activities" width="60" />
+            <p>Lack of Activities</p>
+          </div>
+          <div class="challenge-item" onclick="selectChallenge('lack-shade')">
+            <img src="images/lack of shade.png" alt="Lack of Shade" width="60" />
+            <p>Lack of Shade</p>
+          </div>
+        `;
+      }
+    }
+    function selectChallenge(challengeType) {
+      console.log('Challenge selected:', challengeType);
+      
+      // Handle different challenge types with brief notifications
+      switch(challengeType) {
+        case 'construction':
+          alert('🚧 Construction Zone Challenge: Navigate around active construction areas affecting pedestrian and vehicle traffic.');
+          break;
+        case 'transparency':
+          alert('🔍 Transparency Challenge: Address issues with unclear signage and lack of public information.');
+          break;
+        case 'parking':
+          alert('🚗 Parking Challenge: Manage parked cars blocking pedestrian pathways and accessibility routes.');
+          break;
+        case 'no-bus-shelter':
+          alert('🚌 No Bus Shelter Challenge: Address the lack of proper bus shelters for commuters.');
+          break;
+        case 'high-speed':
+          alert('⚡ High Speed Challenge: Manage traffic safety issues caused by high-speed vehicles.');
+          break;
+        case 'drug-users':
+          alert('⚠️ Drug Users Challenge: Address public safety concerns in the area.');
+          break;
+        case 'lack-accessibility':
+          alert('♿ Lack of Accessibility Challenge: Improve accessibility features for disabled individuals.');
+          break;
+        case 'construction-zone':
+          alert('🚧 Construction Zone Challenge: Navigate around active construction areas.');
+          break;
+        case 'lack-seating':
+          alert('🪑 Lack of Seating Challenge: Address the insufficient seating options for pedestrians.');
+          break;
+        case 'lack-activities':
+          alert('🎯 Lack of Activities Challenge: Improve recreational activities and engagement opportunities.');
+          break;
+        case 'lack-shade':
+          alert('🌳 Lack of Shade Challenge: Address insufficient shade coverage for pedestrians.');
+          break;
+      }
+    }
+    function showKitOfParts() {
+      closeAllOverlays();
+      
+      // Update title with current street info
+      const kitData = kitOfParts[currentStreet];
+      document.getElementById('kit-title').textContent = `🛠️ Kit of Parts for ${currentStreet}`;
+      document.querySelector('.kit-info h4').textContent = `There are ${kitData.count} of these kit of parts in this street!`;
+      
+      // Create card deck with all cards displayed
+      createCardDeck();
+      
+      // Show kit overlay
+      document.getElementById('kit-overlay').style.display = 'flex';
+    }
+    function createCardDeck() {
+      const cardContainer = document.getElementById('card-container');
+      cardContainer.innerHTML = '';
+      
+      const kitData = kitOfParts[currentStreet];
+      
+      kitData.cards.forEach((card, index) => {
+        const cardElement = document.createElement('div');
+        cardElement.className = 'kit-card';
+        
+        cardElement.innerHTML = `
+          <div class="card-front">
+          </div>
+          <div class="card-back">
+            <img src="images/${card.image}" alt="Kit Module ${card.name}" onerror="this.onerror=null;this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22140%22 height=%22130%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23F4D03F%22/></svg>';" />
+          </div>
+        `;
+        
+        cardElement.addEventListener('click', () => flipCard(cardElement));
+        cardContainer.appendChild(cardElement);
+      });
+    }
+    function flipCard(cardElement) {
+      cardElement.classList.toggle('flipped');
+    }
+    function closeAllOverlays() {
+      document.getElementById('time-overlay').style.display = 'none';
+      document.getElementById('challenge-overlay-e120').style.display = 'none';
+      document.getElementById('challenge-overlay-125').style.display = 'none';
+      document.getElementById('challenge-overlay-pleasant').style.display = 'none';
+      document.getElementById('kit-overlay').style.display = 'none';
+    }
+  </script>
+</body>
+</html>

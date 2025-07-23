@@ -1,0 +1,4920 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.955792,
+          40.755149,
+          19.362636121060266
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T11:35:43.586-04:00",
+        "end": "2025-07-10T11:36:57.578-04:00",
+        "Width of the sidewalk in ft": "14",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-11_36_47.jpg",
+        "Name of the street": "E120",
+        "_id": 514478581,
+        "_uuid": "cf988ea7-e390-467e-9c85-0430416002e5",
+        "_submission_time": "2025-07-10T15:36:57",
+        "_status": "submitted_via_web",
+        "__version__": "vK2yqqbzJ5W2wqjXgRUEkh",
+        "_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937154,
+          40.804261,
+          15.272785186767578
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:10:28.502-04:00",
+        "end": "2025-07-10T13:13:45.635-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_12_54.jpg",
+        "Street Elements 2": "Busstop",
+        "Street Elements 3": "Construction elements",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Fence",
+        "_id": 514562693,
+        "_uuid": "4de3c3a2-7a05-4a0d-a276-f3d665f24751",
+        "_submission_time": "2025-07-10T17:13:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937347,
+          40.804196,
+          6.709411622867588
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:10:28.502-04:00",
+        "end": "2025-07-10T13:13:45.635-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_12_54.jpg",
+        "Street Elements 2": "Busstop",
+        "Street Elements 3": "Construction elements",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Fence",
+        "_id": 514562693,
+        "_uuid": "4de3c3a2-7a05-4a0d-a276-f3d665f24751",
+        "_submission_time": "2025-07-10T17:13:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937021,
+          40.80413,
+          6.616341636516154
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:10:28.502-04:00",
+        "end": "2025-07-10T13:13:45.635-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_12_54.jpg",
+        "Street Elements 2": "Busstop",
+        "Street Elements 3": "Construction elements",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Fence",
+        "_id": 514562693,
+        "_uuid": "4de3c3a2-7a05-4a0d-a276-f3d665f24751",
+        "_submission_time": "2025-07-10T17:13:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936578,
+          40.804055,
+          5.543791770935059
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:10:28.502-04:00",
+        "end": "2025-07-10T13:13:45.635-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_12_54.jpg",
+        "Street Elements 2": "Busstop",
+        "Street Elements 3": "Construction elements",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Fence",
+        "_id": 514562693,
+        "_uuid": "4de3c3a2-7a05-4a0d-a276-f3d665f24751",
+        "_submission_time": "2025-07-10T17:13:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936318,
+          40.803896,
+          6.816251080489007
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:12:46.891-04:00",
+        "end": "2025-07-10T13:15:51.428-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Fire Hydrant Tree pit Busstop Construction elements Light poles Traffic signals Fence",
+        "Photo": "IMG_8502-13_15_28.jpeg",
+        "Additional Notes": "Dan",
+        "_id": 514564510,
+        "_uuid": "28e7c67c-02e7-45aa-85ea-ff25464f4cb3",
+        "_submission_time": "2025-07-10T17:15:51",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936469,
+          40.803929,
+          6.254953384399414
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:13:45.795-04:00",
+        "end": "2025-07-10T13:17:24.337-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_17_20.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Trashcan Trash bag",
+        "_id": 514565635,
+        "_uuid": "c9fec8f6-7751-4962-966a-f62d6bd3a93c",
+        "_submission_time": "2025-07-10T17:17:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936041,
+          40.803763,
+          4.996833801269531
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:13:45.795-04:00",
+        "end": "2025-07-10T13:17:24.337-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_17_20.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Trashcan Trash bag",
+        "_id": 514565635,
+        "_uuid": "c9fec8f6-7751-4962-966a-f62d6bd3a93c",
+        "_submission_time": "2025-07-10T17:17:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936126,
+          40.80378,
+          6.1300338012852364
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:13:45.795-04:00",
+        "end": "2025-07-10T13:17:24.337-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_17_20.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Trashcan Trash bag",
+        "_id": 514565635,
+        "_uuid": "c9fec8f6-7751-4962-966a-f62d6bd3a93c",
+        "_submission_time": "2025-07-10T17:17:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936145,
+          40.803878,
+          6.121028518865408
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:13:45.795-04:00",
+        "end": "2025-07-10T13:17:24.337-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_17_20.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Street Elements 4": "Fire Hydrant",
+        "Street Elements 5": "Trashcan Trash bag",
+        "_id": 514565635,
+        "_uuid": "c9fec8f6-7751-4962-966a-f62d6bd3a93c",
+        "_submission_time": "2025-07-10T17:17:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936141,
+          40.803763,
+          6.153051884017973
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:15:51.465-04:00",
+        "end": "2025-07-10T13:18:42.027-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Tree pit",
+        "Photo": "IMG_8505-13_18_29.jpeg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Additional Notes": "Dan",
+        "_id": 514566678,
+        "_uuid": "9c139fa7-7b8e-4626-aaee-7b1c6638bdfb",
+        "_submission_time": "2025-07-10T17:18:50",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936154,
+          40.803747,
+          6.221138842283391
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:15:51.465-04:00",
+        "end": "2025-07-10T13:18:42.027-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Tree pit",
+        "Photo": "IMG_8505-13_18_29.jpeg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Additional Notes": "Dan",
+        "_id": 514566678,
+        "_uuid": "9c139fa7-7b8e-4626-aaee-7b1c6638bdfb",
+        "_submission_time": "2025-07-10T17:18:50",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936137,
+          40.80374,
+          6.694861711129889
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:15:51.465-04:00",
+        "end": "2025-07-10T13:18:42.027-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Tree pit",
+        "Photo": "IMG_8505-13_18_29.jpeg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Other",
+        "Additional Notes": "Dan",
+        "_id": 514566678,
+        "_uuid": "9c139fa7-7b8e-4626-aaee-7b1c6638bdfb",
+        "_submission_time": "2025-07-10T17:18:50",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936226,
+          40.803773,
+          7.413240284332439
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:17:29.535-04:00",
+        "end": "2025-07-10T13:20:13.529-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_20_5.jpg",
+        "Street Elements 3": "Other",
+        "Street Elements 5": "Fire Hydrant",
+        "Street Elements 6": "Trash bag",
+        "_id": 514567706,
+        "_uuid": "fdbb6495-b923-465f-96f3-9a24e9e5c0a5",
+        "_submission_time": "2025-07-10T17:20:14",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936164,
+          40.803786,
+          6.219537941399139
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:17:29.535-04:00",
+        "end": "2025-07-10T13:20:13.529-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_20_5.jpg",
+        "Street Elements 3": "Other",
+        "Street Elements 5": "Fire Hydrant",
+        "Street Elements 6": "Trash bag",
+        "_id": 514567706,
+        "_uuid": "fdbb6495-b923-465f-96f3-9a24e9e5c0a5",
+        "_submission_time": "2025-07-10T17:20:14",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936217,
+          40.803805,
+          6.219541756096405
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:17:29.535-04:00",
+        "end": "2025-07-10T13:20:13.529-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Construction elements",
+        "Photo": "image-13_20_5.jpg",
+        "Street Elements 3": "Other",
+        "Street Elements 5": "Fire Hydrant",
+        "Street Elements 6": "Trash bag",
+        "_id": 514567706,
+        "_uuid": "fdbb6495-b923-465f-96f3-9a24e9e5c0a5",
+        "_submission_time": "2025-07-10T17:20:14",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936027,
+          40.803753,
+          10.951038360595703
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:17:24.496-04:00",
+        "end": "2025-07-10T13:21:00.063-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Traffic signals",
+        "Photo": "image-13_18_24.jpg",
+        "Street Elements 2": "Signage",
+        "_id": 514568977,
+        "_uuid": "434eb47b-8656-4ba0-9356-6ae887fcd471",
+        "_submission_time": "2025-07-10T17:22:02",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935894,
+          40.803662,
+          6.11978304758934
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:17:24.496-04:00",
+        "end": "2025-07-10T13:21:00.063-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Traffic signals",
+        "Photo": "image-13_18_24.jpg",
+        "Street Elements 2": "Signage",
+        "_id": 514568977,
+        "_uuid": "434eb47b-8656-4ba0-9356-6ae887fcd471",
+        "_submission_time": "2025-07-10T17:22:02",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937979,
+          40.800822,
+          5.83976936340332
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:21:12.841-04:00",
+        "end": "2025-07-10T13:28:50.568-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trash bag",
+        "Photo": "image-13_28_47.jpg",
+        "Street Elements 2": "Traffic signals",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Trashcan",
+        "_id": 514573353,
+        "_uuid": "07959ba1-e4b2-48c1-b33e-1d92a6e1e528",
+        "_submission_time": "2025-07-10T17:28:51",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938057,
+          40.800707,
+          17.677715301513672
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:21:12.841-04:00",
+        "end": "2025-07-10T13:28:50.568-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trash bag",
+        "Photo": "image-13_28_47.jpg",
+        "Street Elements 2": "Traffic signals",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Trashcan",
+        "_id": 514573353,
+        "_uuid": "07959ba1-e4b2-48c1-b33e-1d92a6e1e528",
+        "_submission_time": "2025-07-10T17:28:51",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938171,
+          40.800614,
+          5.005255699157715
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:21:12.841-04:00",
+        "end": "2025-07-10T13:28:50.568-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trash bag",
+        "Photo": "image-13_28_47.jpg",
+        "Street Elements 2": "Traffic signals",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Trashcan",
+        "_id": 514573353,
+        "_uuid": "07959ba1-e4b2-48c1-b33e-1d92a6e1e528",
+        "_submission_time": "2025-07-10T17:28:51",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938168,
+          40.800512,
+          20.81119155883789
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:28:50.673-04:00",
+        "end": "2025-07-10T13:31:04.019-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-13_30_50.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Parking",
+        "_id": 514574667,
+        "_uuid": "5017747d-584f-48a1-9c4e-b3766366e454",
+        "_submission_time": "2025-07-10T17:31:05",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937926,
+          40.800387,
+          6.063573757186532
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:28:50.673-04:00",
+        "end": "2025-07-10T13:31:04.019-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-13_30_50.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Parking",
+        "_id": 514574667,
+        "_uuid": "5017747d-584f-48a1-9c4e-b3766366e454",
+        "_submission_time": "2025-07-10T17:31:05",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937862,
+          40.800461,
+          6.042411015819152
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:28:50.673-04:00",
+        "end": "2025-07-10T13:31:04.019-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "15",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-13_30_50.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Parking",
+        "_id": 514574667,
+        "_uuid": "5017747d-584f-48a1-9c4e-b3766366e454",
+        "_submission_time": "2025-07-10T17:31:05",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938023,
+          40.800396,
+          7.349536946043372
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:20:15.267-04:00",
+        "end": "2025-07-10T13:32:04.495-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_31_59.jpg",
+        "Street Elements 2": "Fence",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514575202,
+        "_uuid": "bf39b436-c489-4b2e-8f7e-936ad1a2ed7a",
+        "_submission_time": "2025-07-10T17:32:05",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937829,
+          40.80044,
+          5.99050830992136
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:20:15.267-04:00",
+        "end": "2025-07-10T13:32:04.495-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_31_59.jpg",
+        "Street Elements 2": "Fence",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514575202,
+        "_uuid": "bf39b436-c489-4b2e-8f7e-936ad1a2ed7a",
+        "_submission_time": "2025-07-10T17:32:05",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937912,
+          40.80041,
+          9.310169317759573
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:20:15.267-04:00",
+        "end": "2025-07-10T13:32:04.495-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_31_59.jpg",
+        "Street Elements 2": "Fence",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514575202,
+        "_uuid": "bf39b436-c489-4b2e-8f7e-936ad1a2ed7a",
+        "_submission_time": "2025-07-10T17:32:05",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93783,
+          40.800334,
+          6.085145838558674
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:32:08.138-04:00",
+        "end": "2025-07-10T13:33:09.697-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Parking",
+        "Photo": "image-13_33_1.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Trashcan",
+        "Street Elements 4": "Manhole",
+        "_id": 514575899,
+        "_uuid": "fe4bb8fa-12cf-479e-a8c8-426e7b939ef7",
+        "_submission_time": "2025-07-10T17:33:10",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937947,
+          40.800366,
+          6.096491839381578
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:32:08.138-04:00",
+        "end": "2025-07-10T13:33:09.697-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Parking",
+        "Photo": "image-13_33_1.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Trashcan",
+        "Street Elements 4": "Manhole",
+        "_id": 514575899,
+        "_uuid": "fe4bb8fa-12cf-479e-a8c8-426e7b939ef7",
+        "_submission_time": "2025-07-10T17:33:10",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937872,
+          40.800379,
+          6.099924847483635
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:32:08.138-04:00",
+        "end": "2025-07-10T13:33:09.697-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Parking",
+        "Photo": "image-13_33_1.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Trashcan",
+        "Street Elements 4": "Manhole",
+        "_id": 514575899,
+        "_uuid": "fe4bb8fa-12cf-479e-a8c8-426e7b939ef7",
+        "_submission_time": "2025-07-10T17:33:10",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937642,
+          40.800339,
+          9.964893373660743
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:32:30.601-04:00",
+        "end": "2025-07-10T13:33:34.819-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_33_25.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Bench",
+        "_id": 514576160,
+        "_uuid": "2505351f-91f0-415d-8de0-af2100126ce2",
+        "_submission_time": "2025-07-10T17:33:35",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937484,
+          40.800267,
+          6.967134745719689
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:32:30.601-04:00",
+        "end": "2025-07-10T13:33:34.819-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_33_25.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Bench",
+        "_id": 514576160,
+        "_uuid": "2505351f-91f0-415d-8de0-af2100126ce2",
+        "_submission_time": "2025-07-10T17:33:35",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937493,
+          40.800244,
+          8.790890795275859
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:32:30.601-04:00",
+        "end": "2025-07-10T13:33:34.819-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_33_25.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Bench",
+        "_id": 514576160,
+        "_uuid": "2505351f-91f0-415d-8de0-af2100126ce2",
+        "_submission_time": "2025-07-10T17:33:35",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937858,
+          40.80039,
+          5.088517665863037
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:33:09.807-04:00",
+        "end": "2025-07-10T13:34:08.962-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Manhole",
+        "Photo": "image-13_33_59.jpg",
+        "Street Elements 2": "Furniture",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Entry",
+        "_id": 514576562,
+        "_uuid": "3a8c7431-9e3e-4a35-ace1-a6eb9b2a78af",
+        "_submission_time": "2025-07-10T17:34:09",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937859,
+          40.800432,
+          4.961803913116455
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:33:09.807-04:00",
+        "end": "2025-07-10T13:34:08.962-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Manhole",
+        "Photo": "image-13_33_59.jpg",
+        "Street Elements 2": "Furniture",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Entry",
+        "_id": 514576562,
+        "_uuid": "3a8c7431-9e3e-4a35-ace1-a6eb9b2a78af",
+        "_submission_time": "2025-07-10T17:34:09",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937899,
+          40.800299,
+          4.9411773681640625
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:33:09.807-04:00",
+        "end": "2025-07-10T13:34:08.962-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Manhole",
+        "Photo": "image-13_33_59.jpg",
+        "Street Elements 2": "Furniture",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Entry",
+        "_id": 514576562,
+        "_uuid": "3a8c7431-9e3e-4a35-ace1-a6eb9b2a78af",
+        "_submission_time": "2025-07-10T17:34:09",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937489,
+          40.800293,
+          13.299025128944425
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:33:44.415-04:00",
+        "end": "2025-07-10T13:34:46.188-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Bench",
+        "Photo": "image-13_34_36.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514576987,
+        "_uuid": "592e0356-73b4-4d7f-917c-30bdf6e440c6",
+        "_submission_time": "2025-07-10T17:34:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937467,
+          40.800132,
+          13.152967046835514
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:33:44.415-04:00",
+        "end": "2025-07-10T13:34:46.188-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Bench",
+        "Photo": "image-13_34_36.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514576987,
+        "_uuid": "592e0356-73b4-4d7f-917c-30bdf6e440c6",
+        "_submission_time": "2025-07-10T17:34:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937504,
+          40.800254,
+          12.658058480068394
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:33:44.415-04:00",
+        "end": "2025-07-10T13:34:46.188-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Bench",
+        "Photo": "image-13_34_36.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514576987,
+        "_uuid": "592e0356-73b4-4d7f-917c-30bdf6e440c6",
+        "_submission_time": "2025-07-10T17:34:46",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93791,
+          40.800361,
+          5.4911041259765625
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:34:09.050-04:00",
+        "end": "2025-07-10T13:35:26.135-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_35_17.jpg",
+        "Street Elements 2": "Parking",
+        "Street Elements 3": "Plantation",
+        "Street Elements 4": "Tree pit",
+        "_id": 514577449,
+        "_uuid": "298238ba-9ccb-45f5-9e6b-cc1f7723938b",
+        "_submission_time": "2025-07-10T17:35:27",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937999,
+          40.800428,
+          6.075968348569248
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:34:09.050-04:00",
+        "end": "2025-07-10T13:35:26.135-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_35_17.jpg",
+        "Street Elements 2": "Parking",
+        "Street Elements 3": "Plantation",
+        "Street Elements 4": "Tree pit",
+        "_id": 514577449,
+        "_uuid": "298238ba-9ccb-45f5-9e6b-cc1f7723938b",
+        "_submission_time": "2025-07-10T17:35:27",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937816,
+          40.800316,
+          6.130301150493324
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:34:09.050-04:00",
+        "end": "2025-07-10T13:35:26.135-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_35_17.jpg",
+        "Street Elements 2": "Parking",
+        "Street Elements 3": "Plantation",
+        "Street Elements 4": "Tree pit",
+        "_id": 514577449,
+        "_uuid": "298238ba-9ccb-45f5-9e6b-cc1f7723938b",
+        "_submission_time": "2025-07-10T17:35:27",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93759,
+          40.800285,
+          13.306472148754452
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:34:52.673-04:00",
+        "end": "2025-07-10T13:36:10.383-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_36_2.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514577926,
+        "_uuid": "3f75f99a-2407-4790-836d-981673682480",
+        "_submission_time": "2025-07-10T17:36:10",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937587,
+          40.800257,
+          5.641025287641519
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:34:52.673-04:00",
+        "end": "2025-07-10T13:36:10.383-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_36_2.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514577926,
+        "_uuid": "3f75f99a-2407-4790-836d-981673682480",
+        "_submission_time": "2025-07-10T17:36:10",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937189,
+          40.800125,
+          7.902362823486328
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:34:52.673-04:00",
+        "end": "2025-07-10T13:36:10.383-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_36_2.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514577926,
+        "_uuid": "3f75f99a-2407-4790-836d-981673682480",
+        "_submission_time": "2025-07-10T17:36:10",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93787,
+          40.80038,
+          5.012439727783203
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:35:26.239-04:00",
+        "end": "2025-07-10T13:36:43.682-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_36_38.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Entry",
+        "_id": 514578267,
+        "_uuid": "1e94c07e-cbcc-4b74-8bdf-260f27dbd39d",
+        "_submission_time": "2025-07-10T17:36:44",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937726,
+          40.800393,
+          6.0651620849967
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:35:26.239-04:00",
+        "end": "2025-07-10T13:36:43.682-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_36_38.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Entry",
+        "_id": 514578267,
+        "_uuid": "1e94c07e-cbcc-4b74-8bdf-260f27dbd39d",
+        "_submission_time": "2025-07-10T17:36:44",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937711,
+          40.800332,
+          6.096183908101299
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:35:26.239-04:00",
+        "end": "2025-07-10T13:36:43.682-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_36_38.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Entry",
+        "_id": 514578267,
+        "_uuid": "1e94c07e-cbcc-4b74-8bdf-260f27dbd39d",
+        "_submission_time": "2025-07-10T17:36:44",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937792,
+          40.800257,
+          7.370335578918457
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:36:43.807-04:00",
+        "end": "2025-07-10T13:38:12.464-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_38_2.jpg",
+        "Street Elements 2": "Entry Front yard",
+        "Street Elements 3": "Entry",
+        "_id": 514579276,
+        "_uuid": "21452804-c262-4a97-ba48-b76dd186a0aa",
+        "_submission_time": "2025-07-10T17:38:13",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937585,
+          40.80023,
+          6.0808356330383155
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:36:43.807-04:00",
+        "end": "2025-07-10T13:38:12.464-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_38_2.jpg",
+        "Street Elements 2": "Entry Front yard",
+        "Street Elements 3": "Entry",
+        "_id": 514579276,
+        "_uuid": "21452804-c262-4a97-ba48-b76dd186a0aa",
+        "_submission_time": "2025-07-10T17:38:13",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937503,
+          40.800205,
+          6.118499732576311
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:36:43.807-04:00",
+        "end": "2025-07-10T13:38:12.464-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_38_2.jpg",
+        "Street Elements 2": "Entry Front yard",
+        "Street Elements 3": "Entry",
+        "_id": 514579276,
+        "_uuid": "21452804-c262-4a97-ba48-b76dd186a0aa",
+        "_submission_time": "2025-07-10T17:38:13",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937511,
+          40.80023,
+          8.433327674865723
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:38:12.714-04:00",
+        "end": "2025-07-10T13:39:14.931-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_39_9.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Manhole",
+        "_id": 514580006,
+        "_uuid": "997833d0-6a49-41cc-b397-f202f06cb08c",
+        "_submission_time": "2025-07-10T17:39:16",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937489,
+          40.800268,
+          6.04217735491693
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:38:12.714-04:00",
+        "end": "2025-07-10T13:39:14.931-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_39_9.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Manhole",
+        "_id": 514580006,
+        "_uuid": "997833d0-6a49-41cc-b397-f202f06cb08c",
+        "_submission_time": "2025-07-10T17:39:16",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937514,
+          40.80021,
+          6.146545035627053
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:38:12.714-04:00",
+        "end": "2025-07-10T13:39:14.931-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_39_9.jpg",
+        "Street Elements 2": "Construction elements",
+        "Street Elements 3": "Manhole",
+        "_id": 514580006,
+        "_uuid": "997833d0-6a49-41cc-b397-f202f06cb08c",
+        "_submission_time": "2025-07-10T17:39:16",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937577,
+          40.800277,
+          4.956603527069092
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:39:15.041-04:00",
+        "end": "2025-07-10T13:40:46.985-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan Entry Front yard",
+        "Photo": "image-13_40_39.jpg",
+        "Street Elements 2": "Light poles",
+        "Street Elements 3": "Entry",
+        "_id": 514581054,
+        "_uuid": "6d5772df-20b0-447b-b9ed-c3b829415abf",
+        "_submission_time": "2025-07-10T17:40:47",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937359,
+          40.800229,
+          6.155329940046158
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:39:15.041-04:00",
+        "end": "2025-07-10T13:40:46.985-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan Entry Front yard",
+        "Photo": "image-13_40_39.jpg",
+        "Street Elements 2": "Light poles",
+        "Street Elements 3": "Entry",
+        "_id": 514581054,
+        "_uuid": "6d5772df-20b0-447b-b9ed-c3b829415abf",
+        "_submission_time": "2025-07-10T17:40:47",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937445,
+          40.800284,
+          6.052705061009576
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:39:15.041-04:00",
+        "end": "2025-07-10T13:40:46.985-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan Entry Front yard",
+        "Photo": "image-13_40_39.jpg",
+        "Street Elements 2": "Light poles",
+        "Street Elements 3": "Entry",
+        "_id": 514581054,
+        "_uuid": "6d5772df-20b0-447b-b9ed-c3b829415abf",
+        "_submission_time": "2025-07-10T17:40:47",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937302,
+          40.8001,
+          9.872396184563879
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:36:15.911-04:00",
+        "end": "2025-07-10T13:42:14.560-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_42_6.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "_id": 514581829,
+        "_uuid": "0d65fe84-485b-4546-8cac-5011c667ed85",
+        "_submission_time": "2025-07-10T17:42:15",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937331,
+          40.800172,
+          13.532917430803682
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:36:15.911-04:00",
+        "end": "2025-07-10T13:42:14.560-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_42_6.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "_id": 514581829,
+        "_uuid": "0d65fe84-485b-4546-8cac-5011c667ed85",
+        "_submission_time": "2025-07-10T17:42:15",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936906,
+          40.800025,
+          7.417102847248316
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:36:15.911-04:00",
+        "end": "2025-07-10T13:42:14.560-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_42_6.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "_id": 514581829,
+        "_uuid": "0d65fe84-485b-4546-8cac-5011c667ed85",
+        "_submission_time": "2025-07-10T17:42:15",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937424,
+          40.800206,
+          5.379030704498291
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:40:47.054-04:00",
+        "end": "2025-07-10T13:42:17.417-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-13_42_0.jpg",
+        "Street Elements 2": "Other",
+        "Street Elements 3": "Front yard",
+        "_id": 514581857,
+        "_uuid": "fabe65a8-2e80-43fc-8c9f-0219ca4ffbc8",
+        "_submission_time": "2025-07-10T17:42:18",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937198,
+          40.800153,
+          6.132402513284134
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:40:47.054-04:00",
+        "end": "2025-07-10T13:42:17.417-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-13_42_0.jpg",
+        "Street Elements 2": "Other",
+        "Street Elements 3": "Front yard",
+        "_id": 514581857,
+        "_uuid": "fabe65a8-2e80-43fc-8c9f-0219ca4ffbc8",
+        "_submission_time": "2025-07-10T17:42:18",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937243,
+          40.800163,
+          6.08529867716755
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:40:47.054-04:00",
+        "end": "2025-07-10T13:42:17.417-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-13_42_0.jpg",
+        "Street Elements 2": "Other",
+        "Street Elements 3": "Front yard",
+        "_id": 514581857,
+        "_uuid": "fabe65a8-2e80-43fc-8c9f-0219ca4ffbc8",
+        "_submission_time": "2025-07-10T17:42:18",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937297,
+          40.800156,
+          5.7283782958984375
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:42:17.496-04:00",
+        "end": "2025-07-10T13:43:24.308-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_43_19.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Fire Hydrant",
+        "_id": 514582500,
+        "_uuid": "26653518-441a-4c87-ae9f-7e5e934e0706",
+        "_submission_time": "2025-07-10T17:43:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937226,
+          40.800138,
+          6.079305324747498
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:42:17.496-04:00",
+        "end": "2025-07-10T13:43:24.308-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_43_19.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Fire Hydrant",
+        "_id": 514582500,
+        "_uuid": "26653518-441a-4c87-ae9f-7e5e934e0706",
+        "_submission_time": "2025-07-10T17:43:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937215,
+          40.800121,
+          6.081924295984209
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:42:17.496-04:00",
+        "end": "2025-07-10T13:43:24.308-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_43_19.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Fire Hydrant",
+        "_id": 514582500,
+        "_uuid": "26653518-441a-4c87-ae9f-7e5e934e0706",
+        "_submission_time": "2025-07-10T17:43:25",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936817,
+          40.799973,
+          6.1570250948147915
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:42:21.736-04:00",
+        "end": "2025-07-10T13:43:53.412-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Signage",
+        "Photo": "image-13_43_41.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514582770,
+        "_uuid": "ee4addef-ba13-4adb-a3a8-747b5b4526c7",
+        "_submission_time": "2025-07-10T17:43:53",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936713,
+          40.799943,
+          5.774125006309546
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:42:21.736-04:00",
+        "end": "2025-07-10T13:43:53.412-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Signage",
+        "Photo": "image-13_43_41.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514582770,
+        "_uuid": "ee4addef-ba13-4adb-a3a8-747b5b4526c7",
+        "_submission_time": "2025-07-10T17:43:53",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936696,
+          40.79994,
+          6.3877618969099
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:42:21.736-04:00",
+        "end": "2025-07-10T13:43:53.412-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Signage",
+        "Photo": "image-13_43_41.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "Street Elements 4": "Tree pit",
+        "_id": 514582770,
+        "_uuid": "ee4addef-ba13-4adb-a3a8-747b5b4526c7",
+        "_submission_time": "2025-07-10T17:43:53",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937108,
+          40.800096,
+          8.869780540466309
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:43:24.601-04:00",
+        "end": "2025-07-10T13:44:37.520-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_44_33.jpg",
+        "Street Elements 2": "Parking",
+        "Street Elements 3": "Entry",
+        "_id": 514583212,
+        "_uuid": "0d8fde2b-28a3-42ce-ace8-617551a01dca",
+        "_submission_time": "2025-07-10T17:44:38",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937134,
+          40.800159,
+          6.107771247275828
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:43:24.601-04:00",
+        "end": "2025-07-10T13:44:37.520-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_44_33.jpg",
+        "Street Elements 2": "Parking",
+        "Street Elements 3": "Entry",
+        "_id": 514583212,
+        "_uuid": "0d8fde2b-28a3-42ce-ace8-617551a01dca",
+        "_submission_time": "2025-07-10T17:44:38",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937085,
+          40.800027,
+          6.106375109575662
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:43:24.601-04:00",
+        "end": "2025-07-10T13:44:37.520-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_44_33.jpg",
+        "Street Elements 2": "Parking",
+        "Street Elements 3": "Entry",
+        "_id": 514583212,
+        "_uuid": "0d8fde2b-28a3-42ce-ace8-617551a01dca",
+        "_submission_time": "2025-07-10T17:44:38",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936986,
+          40.800051,
+          5.866981371582899
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:43:54.403-04:00",
+        "end": "2025-07-10T13:45:05.617-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_44_47.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "_id": 514583486,
+        "_uuid": "942eeace-457f-46ca-9647-96eca0aae6d1",
+        "_submission_time": "2025-07-10T17:45:06",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936572,
+          40.799905,
+          5.9500494540998154
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:43:54.403-04:00",
+        "end": "2025-07-10T13:45:05.617-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_44_47.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "_id": 514583486,
+        "_uuid": "942eeace-457f-46ca-9647-96eca0aae6d1",
+        "_submission_time": "2025-07-10T17:45:06",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936454,
+          40.799861,
+          10.669879913330078
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:43:54.403-04:00",
+        "end": "2025-07-10T13:45:05.617-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_44_47.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Tree pit",
+        "_id": 514583486,
+        "_uuid": "942eeace-457f-46ca-9647-96eca0aae6d1",
+        "_submission_time": "2025-07-10T17:45:06",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936925,
+          40.800106,
+          5.298150539398193
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:44:37.610-04:00",
+        "end": "2025-07-10T13:45:46.962-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_45_42.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Signage",
+        "_id": 514583896,
+        "_uuid": "d5fbc1a2-7c56-415b-b28a-bca9dbe31ced",
+        "_submission_time": "2025-07-10T17:45:48",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936979,
+          40.800023,
+          5.874387512103834
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:44:37.610-04:00",
+        "end": "2025-07-10T13:45:46.962-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_45_42.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Signage",
+        "_id": 514583896,
+        "_uuid": "d5fbc1a2-7c56-415b-b28a-bca9dbe31ced",
+        "_submission_time": "2025-07-10T17:45:48",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936593,
+          40.799896,
+          5.039793491363525
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:44:37.610-04:00",
+        "end": "2025-07-10T13:45:46.962-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Entry",
+        "Photo": "image-13_45_42.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Signage",
+        "_id": 514583896,
+        "_uuid": "d5fbc1a2-7c56-415b-b28a-bca9dbe31ced",
+        "_submission_time": "2025-07-10T17:45:48",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936263,
+          40.799891,
+          5.916948527644671
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:45:07.083-04:00",
+        "end": "2025-07-10T13:46:54.989-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_46_45.jpg",
+        "Street Elements 2": "Other",
+        "Street Elements 3": "Signage",
+        "_id": 514584694,
+        "_uuid": "9fb4268a-fd27-415e-ac6c-6d59a2304896",
+        "_submission_time": "2025-07-10T17:46:55",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936539,
+          40.799928,
+          5.764546505213286
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:45:07.083-04:00",
+        "end": "2025-07-10T13:46:54.989-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_46_45.jpg",
+        "Street Elements 2": "Other",
+        "Street Elements 3": "Signage",
+        "_id": 514584694,
+        "_uuid": "9fb4268a-fd27-415e-ac6c-6d59a2304896",
+        "_submission_time": "2025-07-10T17:46:55",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936347,
+          40.799857,
+          15.727332073828894
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:45:07.083-04:00",
+        "end": "2025-07-10T13:46:54.989-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_46_45.jpg",
+        "Street Elements 2": "Other",
+        "Street Elements 3": "Signage",
+        "_id": 514584694,
+        "_uuid": "9fb4268a-fd27-415e-ac6c-6d59a2304896",
+        "_submission_time": "2025-07-10T17:46:55",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936682,
+          40.799924,
+          5.071437358856201
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:45:47.046-04:00",
+        "end": "2025-07-10T13:47:44.582-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan Plantation Entry Fire staircase Front yard",
+        "Photo": "image-13_47_37.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Trashcan",
+        "_id": 514585381,
+        "_uuid": "7c8ac014-46a6-404f-9332-282397a9a002",
+        "_submission_time": "2025-07-10T17:47:45",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936624,
+          40.799879,
+          5.519166078418493
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:45:47.046-04:00",
+        "end": "2025-07-10T13:47:44.582-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan Plantation Entry Fire staircase Front yard",
+        "Photo": "image-13_47_37.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Trashcan",
+        "_id": 514585381,
+        "_uuid": "7c8ac014-46a6-404f-9332-282397a9a002",
+        "_submission_time": "2025-07-10T17:47:45",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936316,
+          40.799701,
+          5.3501645965611395
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:45:47.046-04:00",
+        "end": "2025-07-10T13:47:44.582-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan Plantation Entry Fire staircase Front yard",
+        "Photo": "image-13_47_37.jpg",
+        "Street Elements 2": "Entry",
+        "Street Elements 3": "Trashcan",
+        "_id": 514585381,
+        "_uuid": "7c8ac014-46a6-404f-9332-282397a9a002",
+        "_submission_time": "2025-07-10T17:47:45",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936624,
+          40.79991,
+          13.324045290530277
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:46:56.477-04:00",
+        "end": "2025-07-10T13:48:54.442-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_48_47.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Fence",
+        "_id": 514586163,
+        "_uuid": "e4997beb-7c87-4be8-a000-77dab3223957",
+        "_submission_time": "2025-07-10T17:48:55",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936384,
+          40.799667,
+          11.066682911631325
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:46:56.477-04:00",
+        "end": "2025-07-10T13:48:54.442-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_48_47.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Fence",
+        "_id": 514586163,
+        "_uuid": "e4997beb-7c87-4be8-a000-77dab3223957",
+        "_submission_time": "2025-07-10T17:48:55",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936528,
+          40.799754,
+          11.29432158050535
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:46:56.477-04:00",
+        "end": "2025-07-10T13:48:54.442-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_48_47.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Fence",
+        "_id": 514586163,
+        "_uuid": "e4997beb-7c87-4be8-a000-77dab3223957",
+        "_submission_time": "2025-07-10T17:48:55",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936293,
+          40.799706,
+          4.513456344604492
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:47:44.708-04:00",
+        "end": "2025-07-10T13:49:12.558-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Light poles",
+        "Photo": "image-13_49_2.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Parking Fence",
+        "_id": 514586393,
+        "_uuid": "427d459d-1416-4645-a39d-42286198d6a2",
+        "_submission_time": "2025-07-10T17:49:13",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93631,
+          40.79975,
+          5.48336493791496
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:47:44.708-04:00",
+        "end": "2025-07-10T13:49:12.558-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Light poles",
+        "Photo": "image-13_49_2.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Parking Fence",
+        "_id": 514586393,
+        "_uuid": "427d459d-1416-4645-a39d-42286198d6a2",
+        "_submission_time": "2025-07-10T17:49:13",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936148,
+          40.799773,
+          8.701025009155273
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:47:44.708-04:00",
+        "end": "2025-07-10T13:49:12.558-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Light poles",
+        "Photo": "image-13_49_2.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Parking Fence",
+        "_id": 514586393,
+        "_uuid": "427d459d-1416-4645-a39d-42286198d6a2",
+        "_submission_time": "2025-07-10T17:49:13",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936098,
+          40.799372,
+          8.143750190734863
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:49:12.716-04:00",
+        "end": "2025-07-10T13:50:21.233-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-13_50_15.jpg",
+        "Street Elements 2": "Manhole",
+        "Street Elements 3": "Traffic signals",
+        "_id": 514587130,
+        "_uuid": "29f11384-d94d-4fa4-a634-5cedf3dd6e23",
+        "_submission_time": "2025-07-10T17:50:22",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936066,
+          40.799431,
+          5.302670143544674
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:49:12.716-04:00",
+        "end": "2025-07-10T13:50:21.233-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-13_50_15.jpg",
+        "Street Elements 2": "Manhole",
+        "Street Elements 3": "Traffic signals",
+        "_id": 514587130,
+        "_uuid": "29f11384-d94d-4fa4-a634-5cedf3dd6e23",
+        "_submission_time": "2025-07-10T17:50:22",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935987,
+          40.799595,
+          5.285451123014866
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:49:12.716-04:00",
+        "end": "2025-07-10T13:50:21.233-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-13_50_15.jpg",
+        "Street Elements 2": "Manhole",
+        "Street Elements 3": "Traffic signals",
+        "_id": 514587130,
+        "_uuid": "29f11384-d94d-4fa4-a634-5cedf3dd6e23",
+        "_submission_time": "2025-07-10T17:50:22",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936112,
+          40.79965,
+          17.57257348536617
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:48:55.740-04:00",
+        "end": "2025-07-10T13:50:29.230-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_50_21.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "_id": 514587203,
+        "_uuid": "f7a2160f-8031-40fa-b396-408e5bc7d47c",
+        "_submission_time": "2025-07-10T17:50:29",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935971,
+          40.799522,
+          25.850775288206265
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:48:55.740-04:00",
+        "end": "2025-07-10T13:50:29.230-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_50_21.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "_id": 514587203,
+        "_uuid": "f7a2160f-8031-40fa-b396-408e5bc7d47c",
+        "_submission_time": "2025-07-10T17:50:29",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93621,
+          40.799193,
+          5.335020675493741
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:48:55.740-04:00",
+        "end": "2025-07-10T13:50:29.230-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Tree pit",
+        "Photo": "image-13_50_21.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "_id": 514587203,
+        "_uuid": "f7a2160f-8031-40fa-b396-408e5bc7d47c",
+        "_submission_time": "2025-07-10T17:50:29",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936004,
+          40.799508,
+          6.80640172958374
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:50:21.315-04:00",
+        "end": "2025-07-10T13:51:49.779-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-13_51_41.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Newspaper boxes",
+        "_id": 514588104,
+        "_uuid": "248c080a-63fc-41fe-aa7c-ec8413f56082",
+        "_submission_time": "2025-07-10T17:51:50",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935909,
+          40.799682,
+          5.312180282935888
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:50:21.315-04:00",
+        "end": "2025-07-10T13:51:49.779-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-13_51_41.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Newspaper boxes",
+        "_id": 514588104,
+        "_uuid": "248c080a-63fc-41fe-aa7c-ec8413f56082",
+        "_submission_time": "2025-07-10T17:51:50",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935933,
+          40.799605,
+          5.327956914901733
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:50:21.315-04:00",
+        "end": "2025-07-10T13:51:49.779-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-13_51_41.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Newspaper boxes",
+        "_id": 514588104,
+        "_uuid": "248c080a-63fc-41fe-aa7c-ec8413f56082",
+        "_submission_time": "2025-07-10T17:51:50",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936156,
+          40.799414,
+          0.0
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:50:30.305-04:00",
+        "end": "2025-07-10T13:53:05.459-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Manhole",
+        "Photo": "image-13_52_27.jpg",
+        "Street Elements 2": "Mail box",
+        "Street Elements 3": "Other",
+        "_id": 514589075,
+        "_uuid": "94a136a2-56fa-49e4-92b3-821d0adc1a7c",
+        "_submission_time": "2025-07-10T17:53:06",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936067,
+          40.799332,
+          14.813386702800793
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:50:30.305-04:00",
+        "end": "2025-07-10T13:53:05.459-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Manhole",
+        "Photo": "image-13_52_27.jpg",
+        "Street Elements 2": "Mail box",
+        "Street Elements 3": "Other",
+        "_id": 514589075,
+        "_uuid": "94a136a2-56fa-49e4-92b3-821d0adc1a7c",
+        "_submission_time": "2025-07-10T17:53:06",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936118,
+          40.799397,
+          15.400000000000002
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:50:30.305-04:00",
+        "end": "2025-07-10T13:53:05.459-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Manhole",
+        "Photo": "image-13_52_27.jpg",
+        "Street Elements 2": "Mail box",
+        "Street Elements 3": "Other",
+        "_id": 514589075,
+        "_uuid": "94a136a2-56fa-49e4-92b3-821d0adc1a7c",
+        "_submission_time": "2025-07-10T17:53:06",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936268,
+          40.79928,
+          6.541248321533203
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:53:07.094-04:00",
+        "end": "2025-07-10T13:57:10.675-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-13_57_3.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Bike rack",
+        "_id": 514591800,
+        "_uuid": "c40264ed-3f47-4695-95b8-c39b943dd34b",
+        "_submission_time": "2025-07-10T17:57:11",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936262,
+          40.799164,
+          9.851091196304019
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:53:07.094-04:00",
+        "end": "2025-07-10T13:57:10.675-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-13_57_3.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Bike rack",
+        "_id": 514591800,
+        "_uuid": "c40264ed-3f47-4695-95b8-c39b943dd34b",
+        "_submission_time": "2025-07-10T17:57:11",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936297,
+          40.799045,
+          10.887055023610777
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:53:07.094-04:00",
+        "end": "2025-07-10T13:57:10.675-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-13_57_3.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Bike rack",
+        "_id": 514591800,
+        "_uuid": "c40264ed-3f47-4695-95b8-c39b943dd34b",
+        "_submission_time": "2025-07-10T17:57:11",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936212,
+          40.799121,
+          12.85044805555708
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:57:12.039-04:00",
+        "end": "2025-07-10T13:58:57.143-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Other",
+        "Photo": "image-13_58_51.jpg",
+        "Street Elements 3": "Other",
+        "_id": 514592844,
+        "_uuid": "010d22d8-a21e-437b-8bae-9b9f4599ce72",
+        "_submission_time": "2025-07-10T17:58:57",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936316,
+          40.799016,
+          21.94764884856765
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T13:57:12.039-04:00",
+        "end": "2025-07-10T13:58:57.143-04:00",
+        "Name of Street": "120th Street",
+        "Street Elements": "Other",
+        "Photo": "image-13_58_51.jpg",
+        "Street Elements 3": "Other",
+        "_id": 514592844,
+        "_uuid": "010d22d8-a21e-437b-8bae-9b9f4599ce72",
+        "_submission_time": "2025-07-10T17:58:57",
+        "_status": "submitted_via_web",
+        "__version__": "vCA96DAMQMR6uA3hMwYaVF",
+        "_index": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931309,
+          40.797533,
+          3.441481590270996
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:02:52.115-04:00",
+        "end": "2025-07-10T14:21:14.885-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_21_10.jpg",
+        "Street Elements 2": "Trashcan Front yard",
+        "Street Elements 3": "Mail box",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Entry",
+        "_id": 514606851,
+        "_uuid": "f2defca7-e8bb-42b2-9b8b-3e91105f8266",
+        "_submission_time": "2025-07-10T18:21:16",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931384,
+          40.797728,
+          4.408425177256834
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:02:52.115-04:00",
+        "end": "2025-07-10T14:21:14.885-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_21_10.jpg",
+        "Street Elements 2": "Trashcan Front yard",
+        "Street Elements 3": "Mail box",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Entry",
+        "_id": 514606851,
+        "_uuid": "f2defca7-e8bb-42b2-9b8b-3e91105f8266",
+        "_submission_time": "2025-07-10T18:21:16",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931435,
+          40.797753,
+          4.422414750792086
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:02:52.115-04:00",
+        "end": "2025-07-10T14:21:14.885-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_21_10.jpg",
+        "Street Elements 2": "Trashcan Front yard",
+        "Street Elements 3": "Mail box",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Entry",
+        "_id": 514606851,
+        "_uuid": "f2defca7-e8bb-42b2-9b8b-3e91105f8266",
+        "_submission_time": "2025-07-10T18:21:16",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931455,
+          40.797582,
+          4.390574864635152
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:02:52.115-04:00",
+        "end": "2025-07-10T14:21:14.885-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_21_10.jpg",
+        "Street Elements 2": "Trashcan Front yard",
+        "Street Elements 3": "Mail box",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Entry",
+        "_id": 514606851,
+        "_uuid": "f2defca7-e8bb-42b2-9b8b-3e91105f8266",
+        "_submission_time": "2025-07-10T18:21:16",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931382,
+          40.797505,
+          4.441425919532776
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:02:52.115-04:00",
+        "end": "2025-07-10T14:21:14.885-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_21_10.jpg",
+        "Street Elements 2": "Trashcan Front yard",
+        "Street Elements 3": "Mail box",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Entry",
+        "_id": 514606851,
+        "_uuid": "f2defca7-e8bb-42b2-9b8b-3e91105f8266",
+        "_submission_time": "2025-07-10T18:21:16",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931119,
+          40.79765,
+          3.417823314666748
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:02:52.115-04:00",
+        "end": "2025-07-10T14:21:14.885-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_21_10.jpg",
+        "Street Elements 2": "Trashcan Front yard",
+        "Street Elements 3": "Mail box",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Entry",
+        "_id": 514606851,
+        "_uuid": "f2defca7-e8bb-42b2-9b8b-3e91105f8266",
+        "_submission_time": "2025-07-10T18:21:16",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931177,
+          40.797541,
+          9.137967826735935
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:03:01.240-04:00",
+        "end": "2025-07-10T14:22:50.473-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-14_22_42.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Citibike",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Tree pit",
+        "_id": 514607862,
+        "_uuid": "ddb1305f-7fdf-4608-8d1a-74e546f03c55",
+        "_submission_time": "2025-07-10T18:22:51",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931291,
+          40.797509,
+          6.9275414896816265
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:03:01.240-04:00",
+        "end": "2025-07-10T14:22:50.473-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-14_22_42.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Citibike",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Tree pit",
+        "_id": 514607862,
+        "_uuid": "ddb1305f-7fdf-4608-8d1a-74e546f03c55",
+        "_submission_time": "2025-07-10T18:22:51",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931382,
+          40.797394,
+          9.426647263681314
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:03:01.240-04:00",
+        "end": "2025-07-10T14:22:50.473-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-14_22_42.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Citibike",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Tree pit",
+        "_id": 514607862,
+        "_uuid": "ddb1305f-7fdf-4608-8d1a-74e546f03c55",
+        "_submission_time": "2025-07-10T18:22:51",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931467,
+          40.797349,
+          8.905990649815585
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:03:01.240-04:00",
+        "end": "2025-07-10T14:22:50.473-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-14_22_42.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Citibike",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Tree pit",
+        "_id": 514607862,
+        "_uuid": "ddb1305f-7fdf-4608-8d1a-74e546f03c55",
+        "_submission_time": "2025-07-10T18:22:51",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931459,
+          40.797325,
+          8.08288548866068
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:03:01.240-04:00",
+        "end": "2025-07-10T14:22:50.473-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-14_22_42.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Citibike",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Tree pit",
+        "_id": 514607862,
+        "_uuid": "ddb1305f-7fdf-4608-8d1a-74e546f03c55",
+        "_submission_time": "2025-07-10T18:22:51",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931371,
+          40.797358,
+          6.152027269825339
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:03:01.240-04:00",
+        "end": "2025-07-10T14:22:50.473-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage Light poles",
+        "Photo": "image-14_22_42.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Citibike",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Tree pit",
+        "_id": 514607862,
+        "_uuid": "ddb1305f-7fdf-4608-8d1a-74e546f03c55",
+        "_submission_time": "2025-07-10T18:22:51",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931327,
+          40.797423,
+          3.51375150680542
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:21:17.763-04:00",
+        "end": "2025-07-10T14:23:33.538-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_23_28.jpg",
+        "Street Elements 2": "Trash bag Entry",
+        "Street Elements 3": "Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Signage Light poles",
+        "Street Elements 6": "Bike rack",
+        "_id": 514608378,
+        "_uuid": "315f2745-97cd-47f9-8247-edaaf87d8e90",
+        "_submission_time": "2025-07-10T18:23:35",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931462,
+          40.797518,
+          4.457366638821188
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:21:17.763-04:00",
+        "end": "2025-07-10T14:23:33.538-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_23_28.jpg",
+        "Street Elements 2": "Trash bag Entry",
+        "Street Elements 3": "Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Signage Light poles",
+        "Street Elements 6": "Bike rack",
+        "_id": 514608378,
+        "_uuid": "315f2745-97cd-47f9-8247-edaaf87d8e90",
+        "_submission_time": "2025-07-10T18:23:35",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931459,
+          40.797486,
+          4.416742722503841
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:21:17.763-04:00",
+        "end": "2025-07-10T14:23:33.538-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_23_28.jpg",
+        "Street Elements 2": "Trash bag Entry",
+        "Street Elements 3": "Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Signage Light poles",
+        "Street Elements 6": "Bike rack",
+        "_id": 514608378,
+        "_uuid": "315f2745-97cd-47f9-8247-edaaf87d8e90",
+        "_submission_time": "2025-07-10T18:23:35",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9315,
+          40.797397,
+          3.365990161895752
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:21:17.763-04:00",
+        "end": "2025-07-10T14:23:33.538-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_23_28.jpg",
+        "Street Elements 2": "Trash bag Entry",
+        "Street Elements 3": "Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Signage Light poles",
+        "Street Elements 6": "Bike rack",
+        "_id": 514608378,
+        "_uuid": "315f2745-97cd-47f9-8247-edaaf87d8e90",
+        "_submission_time": "2025-07-10T18:23:35",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931478,
+          40.797388,
+          3.4157590866088867
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:21:17.763-04:00",
+        "end": "2025-07-10T14:23:33.538-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_23_28.jpg",
+        "Street Elements 2": "Trash bag Entry",
+        "Street Elements 3": "Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Signage Light poles",
+        "Street Elements 6": "Bike rack",
+        "_id": 514608378,
+        "_uuid": "315f2745-97cd-47f9-8247-edaaf87d8e90",
+        "_submission_time": "2025-07-10T18:23:35",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931578,
+          40.797325,
+          4.460537601826072
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:21:17.763-04:00",
+        "end": "2025-07-10T14:23:33.538-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_23_28.jpg",
+        "Street Elements 2": "Trash bag Entry",
+        "Street Elements 3": "Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Signage Light poles",
+        "Street Elements 6": "Bike rack",
+        "_id": 514608378,
+        "_uuid": "315f2745-97cd-47f9-8247-edaaf87d8e90",
+        "_submission_time": "2025-07-10T18:23:35",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931514,
+          40.797261,
+          3.4259066581726074
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:23:37.333-04:00",
+        "end": "2025-07-10T14:26:06.851-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit",
+        "Photo": "image-14_26_1.jpg",
+        "Street Elements 2": "Parking Fence",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan Trash bag",
+        "Street Elements 5": "Manhole",
+        "Street Elements 6": "Fire Hydrant",
+        "_id": 514610202,
+        "_uuid": "8968942b-9203-4e6e-ac8c-d333612125aa",
+        "_submission_time": "2025-07-10T18:26:08",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931609,
+          40.797219,
+          3.378561019897461
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:23:37.333-04:00",
+        "end": "2025-07-10T14:26:06.851-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit",
+        "Photo": "image-14_26_1.jpg",
+        "Street Elements 2": "Parking Fence",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan Trash bag",
+        "Street Elements 5": "Manhole",
+        "Street Elements 6": "Fire Hydrant",
+        "_id": 514610202,
+        "_uuid": "8968942b-9203-4e6e-ac8c-d333612125aa",
+        "_submission_time": "2025-07-10T18:26:08",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931741,
+          40.797108,
+          3.3993139266967773
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:23:37.333-04:00",
+        "end": "2025-07-10T14:26:06.851-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit",
+        "Photo": "image-14_26_1.jpg",
+        "Street Elements 2": "Parking Fence",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan Trash bag",
+        "Street Elements 5": "Manhole",
+        "Street Elements 6": "Fire Hydrant",
+        "_id": 514610202,
+        "_uuid": "8968942b-9203-4e6e-ac8c-d333612125aa",
+        "_submission_time": "2025-07-10T18:26:08",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931813,
+          40.797079,
+          4.618531751932018
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:23:37.333-04:00",
+        "end": "2025-07-10T14:26:06.851-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit",
+        "Photo": "image-14_26_1.jpg",
+        "Street Elements 2": "Parking Fence",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan Trash bag",
+        "Street Elements 5": "Manhole",
+        "Street Elements 6": "Fire Hydrant",
+        "_id": 514610202,
+        "_uuid": "8968942b-9203-4e6e-ac8c-d333612125aa",
+        "_submission_time": "2025-07-10T18:26:08",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931819,
+          40.797074,
+          4.6330565409734845
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:23:37.333-04:00",
+        "end": "2025-07-10T14:26:06.851-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit",
+        "Photo": "image-14_26_1.jpg",
+        "Street Elements 2": "Parking Fence",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan Trash bag",
+        "Street Elements 5": "Manhole",
+        "Street Elements 6": "Fire Hydrant",
+        "_id": 514610202,
+        "_uuid": "8968942b-9203-4e6e-ac8c-d333612125aa",
+        "_submission_time": "2025-07-10T18:26:08",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931822,
+          40.797054,
+          4.632150147110224
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:23:37.333-04:00",
+        "end": "2025-07-10T14:26:06.851-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit",
+        "Photo": "image-14_26_1.jpg",
+        "Street Elements 2": "Parking Fence",
+        "Street Elements 3": "Traffic signals",
+        "Street Elements 4": "Trashcan Trash bag",
+        "Street Elements 5": "Manhole",
+        "Street Elements 6": "Fire Hydrant",
+        "_id": 514610202,
+        "_uuid": "8968942b-9203-4e6e-ac8c-d333612125aa",
+        "_submission_time": "2025-07-10T18:26:08",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931381,
+          40.79724,
+          4.762867021374404
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:22:52.693-04:00",
+        "end": "2025-07-10T14:26:42.155-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19.1",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-14_26_35.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514610549,
+        "_uuid": "d33443e3-8934-4dcd-803e-8ceb81b126fc",
+        "_submission_time": "2025-07-10T18:26:43",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931537,
+          40.797332,
+          6.029361038618475
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:22:52.693-04:00",
+        "end": "2025-07-10T14:26:42.155-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19.1",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-14_26_35.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514610549,
+        "_uuid": "d33443e3-8934-4dcd-803e-8ceb81b126fc",
+        "_submission_time": "2025-07-10T18:26:43",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931545,
+          40.797267,
+          8.350558882812727
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:22:52.693-04:00",
+        "end": "2025-07-10T14:26:42.155-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19.1",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-14_26_35.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514610549,
+        "_uuid": "d33443e3-8934-4dcd-803e-8ceb81b126fc",
+        "_submission_time": "2025-07-10T18:26:43",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931588,
+          40.797223,
+          9.07717104744302
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:22:52.693-04:00",
+        "end": "2025-07-10T14:26:42.155-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19.1",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-14_26_35.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514610549,
+        "_uuid": "d33443e3-8934-4dcd-803e-8ceb81b126fc",
+        "_submission_time": "2025-07-10T18:26:43",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931591,
+          40.797169,
+          8.835586742057693
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:22:52.693-04:00",
+        "end": "2025-07-10T14:26:42.155-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19.1",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-14_26_35.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514610549,
+        "_uuid": "d33443e3-8934-4dcd-803e-8ceb81b126fc",
+        "_submission_time": "2025-07-10T18:26:43",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931639,
+          40.797067,
+          6.525408721348773
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:22:52.693-04:00",
+        "end": "2025-07-10T14:26:42.155-04:00",
+        "Name of Street": "125th Street",
+        "Width of the sidewalk in ft": "19.1",
+        "Street Elements": "Fire Hydrant",
+        "Photo": "image-14_26_35.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Signage",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Light poles",
+        "_id": 514610549,
+        "_uuid": "d33443e3-8934-4dcd-803e-8ceb81b126fc",
+        "_submission_time": "2025-07-10T18:26:43",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931993,
+          40.797141,
+          3.621516227722168
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:17.109-04:00",
+        "end": "2025-07-10T14:29:04.330-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Manhole",
+        "Photo": "image-14_28_35.jpg",
+        "Street Elements 2": "Light poles Traffic signals",
+        "Street Elements 3": "Trashcan Entry Stoop Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Trashcan Trash bag Entry Stoop Front yard Fence",
+        "_id": 514611855,
+        "_uuid": "73e2e2b5-0799-496b-99f8-d0aa4f0340ba",
+        "_submission_time": "2025-07-10T18:29:05",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931847,
+          40.796982,
+          4.691253497265279
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:17.109-04:00",
+        "end": "2025-07-10T14:29:04.330-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Manhole",
+        "Photo": "image-14_28_35.jpg",
+        "Street Elements 2": "Light poles Traffic signals",
+        "Street Elements 3": "Trashcan Entry Stoop Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Trashcan Trash bag Entry Stoop Front yard Fence",
+        "_id": 514611855,
+        "_uuid": "73e2e2b5-0799-496b-99f8-d0aa4f0340ba",
+        "_submission_time": "2025-07-10T18:29:05",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931874,
+          40.797042,
+          4.7909013845374595
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:17.109-04:00",
+        "end": "2025-07-10T14:29:04.330-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Manhole",
+        "Photo": "image-14_28_35.jpg",
+        "Street Elements 2": "Light poles Traffic signals",
+        "Street Elements 3": "Trashcan Entry Stoop Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Trashcan Trash bag Entry Stoop Front yard Fence",
+        "_id": 514611855,
+        "_uuid": "73e2e2b5-0799-496b-99f8-d0aa4f0340ba",
+        "_submission_time": "2025-07-10T18:29:05",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931892,
+          40.797019,
+          4.690457826480269
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:17.109-04:00",
+        "end": "2025-07-10T14:29:04.330-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Manhole",
+        "Photo": "image-14_28_35.jpg",
+        "Street Elements 2": "Light poles Traffic signals",
+        "Street Elements 3": "Trashcan Entry Stoop Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Trashcan Trash bag Entry Stoop Front yard Fence",
+        "_id": 514611855,
+        "_uuid": "73e2e2b5-0799-496b-99f8-d0aa4f0340ba",
+        "_submission_time": "2025-07-10T18:29:05",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931924,
+          40.796885,
+          4.705659388357926
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:17.109-04:00",
+        "end": "2025-07-10T14:29:04.330-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Manhole",
+        "Photo": "image-14_28_35.jpg",
+        "Street Elements 2": "Light poles Traffic signals",
+        "Street Elements 3": "Trashcan Entry Stoop Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Trashcan Trash bag Entry Stoop Front yard Fence",
+        "_id": 514611855,
+        "_uuid": "73e2e2b5-0799-496b-99f8-d0aa4f0340ba",
+        "_submission_time": "2025-07-10T18:29:05",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931907,
+          40.796893,
+          4.765246336348355
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:17.109-04:00",
+        "end": "2025-07-10T14:29:04.330-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Manhole",
+        "Photo": "image-14_28_35.jpg",
+        "Street Elements 2": "Light poles Traffic signals",
+        "Street Elements 3": "Trashcan Entry Stoop Fence",
+        "Street Elements 4": "Tree pit",
+        "Street Elements 5": "Parking",
+        "Street Elements 6": "Trashcan Trash bag Entry Stoop Front yard Fence",
+        "_id": 514611855,
+        "_uuid": "73e2e2b5-0799-496b-99f8-d0aa4f0340ba",
+        "_submission_time": "2025-07-10T18:29:05",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931629,
+          40.797095,
+          7.494136575750468
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:45.138-04:00",
+        "end": "2025-07-10T14:29:55.818-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-14_29_48.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Fire Hydrant Other",
+        "Street Elements 4": "Other",
+        "Street Elements 5": "Signage Other",
+        "Street Elements 6": "Plantation",
+        "_id": 514612282,
+        "_uuid": "21283f70-e4d3-4f0a-85b1-471a9e04d0fe",
+        "_submission_time": "2025-07-10T18:29:57",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931693,
+          40.796992,
+          3.1489502959185636
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:45.138-04:00",
+        "end": "2025-07-10T14:29:55.818-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-14_29_48.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Fire Hydrant Other",
+        "Street Elements 4": "Other",
+        "Street Elements 5": "Signage Other",
+        "Street Elements 6": "Plantation",
+        "_id": 514612282,
+        "_uuid": "21283f70-e4d3-4f0a-85b1-471a9e04d0fe",
+        "_submission_time": "2025-07-10T18:29:57",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931753,
+          40.796846,
+          4.941006135965517
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:45.138-04:00",
+        "end": "2025-07-10T14:29:55.818-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-14_29_48.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Fire Hydrant Other",
+        "Street Elements 4": "Other",
+        "Street Elements 5": "Signage Other",
+        "Street Elements 6": "Plantation",
+        "_id": 514612282,
+        "_uuid": "21283f70-e4d3-4f0a-85b1-471a9e04d0fe",
+        "_submission_time": "2025-07-10T18:29:57",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931743,
+          40.79707,
+          8.53896143970309
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:45.138-04:00",
+        "end": "2025-07-10T14:29:55.818-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-14_29_48.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Fire Hydrant Other",
+        "Street Elements 4": "Other",
+        "Street Elements 5": "Signage Other",
+        "Street Elements 6": "Plantation",
+        "_id": 514612282,
+        "_uuid": "21283f70-e4d3-4f0a-85b1-471a9e04d0fe",
+        "_submission_time": "2025-07-10T18:29:57",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93181,
+          40.796989,
+          4.380998597772521
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:45.138-04:00",
+        "end": "2025-07-10T14:29:55.818-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-14_29_48.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Fire Hydrant Other",
+        "Street Elements 4": "Other",
+        "Street Elements 5": "Signage Other",
+        "Street Elements 6": "Plantation",
+        "_id": 514612282,
+        "_uuid": "21283f70-e4d3-4f0a-85b1-471a9e04d0fe",
+        "_submission_time": "2025-07-10T18:29:57",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931855,
+          40.796819,
+          4.69667758787688
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:26:45.138-04:00",
+        "end": "2025-07-10T14:29:55.818-04:00",
+        "Name of Street": "125th Street",
+        "Street Elements": "Trashcan",
+        "Photo": "image-14_29_48.jpg",
+        "Street Elements 2": "Signage",
+        "Street Elements 3": "Fire Hydrant Other",
+        "Street Elements 4": "Other",
+        "Street Elements 5": "Signage Other",
+        "Street Elements 6": "Plantation",
+        "_id": 514612282,
+        "_uuid": "21283f70-e4d3-4f0a-85b1-471a9e04d0fe",
+        "_submission_time": "2025-07-10T18:29:57",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931945,
+          40.796893,
+          4.69870761310391
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:06.315-04:00",
+        "end": "2025-07-10T14:31:23.649-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_31_12.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Entry Fire staircase",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Parking",
+        "_id": 514613000,
+        "_uuid": "1f4bf666-17f0-4151-b6ce-2c536c6e1ee3",
+        "_submission_time": "2025-07-10T18:31:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931954,
+          40.796793,
+          4.8193405801430345
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:06.315-04:00",
+        "end": "2025-07-10T14:31:23.649-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_31_12.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Entry Fire staircase",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Parking",
+        "_id": 514613000,
+        "_uuid": "1f4bf666-17f0-4151-b6ce-2c536c6e1ee3",
+        "_submission_time": "2025-07-10T18:31:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931946,
+          40.796784,
+          4.836300251067517
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:06.315-04:00",
+        "end": "2025-07-10T14:31:23.649-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_31_12.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Entry Fire staircase",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Parking",
+        "_id": 514613000,
+        "_uuid": "1f4bf666-17f0-4151-b6ce-2c536c6e1ee3",
+        "_submission_time": "2025-07-10T18:31:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931968,
+          40.796752,
+          4.874822607263923
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:06.315-04:00",
+        "end": "2025-07-10T14:31:23.649-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_31_12.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Entry Fire staircase",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Parking",
+        "_id": 514613000,
+        "_uuid": "1f4bf666-17f0-4151-b6ce-2c536c6e1ee3",
+        "_submission_time": "2025-07-10T18:31:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932029,
+          40.796704,
+          5.040643528770783
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:06.315-04:00",
+        "end": "2025-07-10T14:31:23.649-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_31_12.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Entry Fire staircase",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Parking",
+        "_id": 514613000,
+        "_uuid": "1f4bf666-17f0-4151-b6ce-2c536c6e1ee3",
+        "_submission_time": "2025-07-10T18:31:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932044,
+          40.796633,
+          5.0982279274612665
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:06.315-04:00",
+        "end": "2025-07-10T14:31:23.649-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Signage",
+        "Photo": "image-14_31_12.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Entry Fire staircase",
+        "Street Elements 4": "Signage",
+        "Street Elements 5": "Tree pit",
+        "Street Elements 6": "Parking",
+        "_id": 514613000,
+        "_uuid": "1f4bf666-17f0-4151-b6ce-2c536c6e1ee3",
+        "_submission_time": "2025-07-10T18:31:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932106,
+          40.79664,
+          5.2864476554095745
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:31:26.778-04:00",
+        "end": "2025-07-10T14:34:12.498-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_34_7.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Trashcan Trash bag",
+        "Street Elements 4": "Trashcan Trash bag Entry Front yard Fence",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Tree pit Trashcan Plantation Fence",
+        "_id": 514614277,
+        "_uuid": "d0f30b3c-dce6-448e-ba53-8565271f24c9",
+        "_submission_time": "2025-07-10T18:34:13",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932069,
+          40.796682,
+          5.11458142906498
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:31:26.778-04:00",
+        "end": "2025-07-10T14:34:12.498-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_34_7.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Trashcan Trash bag",
+        "Street Elements 4": "Trashcan Trash bag Entry Front yard Fence",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Tree pit Trashcan Plantation Fence",
+        "_id": 514614277,
+        "_uuid": "d0f30b3c-dce6-448e-ba53-8565271f24c9",
+        "_submission_time": "2025-07-10T18:34:13",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93206,
+          40.796578,
+          5.13833614718169
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:31:26.778-04:00",
+        "end": "2025-07-10T14:34:12.498-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_34_7.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Trashcan Trash bag",
+        "Street Elements 4": "Trashcan Trash bag Entry Front yard Fence",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Tree pit Trashcan Plantation Fence",
+        "_id": 514614277,
+        "_uuid": "d0f30b3c-dce6-448e-ba53-8565271f24c9",
+        "_submission_time": "2025-07-10T18:34:13",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932084,
+          40.796591,
+          5.125378234487609
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:31:26.778-04:00",
+        "end": "2025-07-10T14:34:12.498-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_34_7.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Trashcan Trash bag",
+        "Street Elements 4": "Trashcan Trash bag Entry Front yard Fence",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Tree pit Trashcan Plantation Fence",
+        "_id": 514614277,
+        "_uuid": "d0f30b3c-dce6-448e-ba53-8565271f24c9",
+        "_submission_time": "2025-07-10T18:34:13",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932033,
+          40.796659,
+          5.023196323774755
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:31:26.778-04:00",
+        "end": "2025-07-10T14:34:12.498-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_34_7.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Trashcan Trash bag",
+        "Street Elements 4": "Trashcan Trash bag Entry Front yard Fence",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Tree pit Trashcan Plantation Fence",
+        "_id": 514614277,
+        "_uuid": "d0f30b3c-dce6-448e-ba53-8565271f24c9",
+        "_submission_time": "2025-07-10T18:34:13",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932124,
+          40.796495,
+          5.236649861662325
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:31:26.778-04:00",
+        "end": "2025-07-10T14:34:12.498-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_34_7.jpg",
+        "Street Elements 2": "Tree pit",
+        "Street Elements 3": "Trashcan Trash bag",
+        "Street Elements 4": "Trashcan Trash bag Entry Front yard Fence",
+        "Street Elements 5": "Signage",
+        "Street Elements 6": "Tree pit Trashcan Plantation Fence",
+        "_id": 514614277,
+        "_uuid": "d0f30b3c-dce6-448e-ba53-8565271f24c9",
+        "_submission_time": "2025-07-10T18:34:13",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93196,
+          40.796727,
+          3.9548806454281973
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:58.153-04:00",
+        "end": "2025-07-10T14:36:24.531-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Width of the sidewalk in ft": "12.3",
+        "Street Elements": "Bench Plantation",
+        "Photo": "image-14_34_41.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Light poles Other",
+        "Street Elements 4": "Bench Plantation Furniture Other",
+        "Street Elements 5": "Tree pit Bench Other",
+        "Street Elements 6": "Other",
+        "_id": 514615329,
+        "_uuid": "6b2158ad-4460-42d6-b4c0-1376847e31df",
+        "_submission_time": "2025-07-10T18:36:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932046,
+          40.796576,
+          4.679124704416889
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:58.153-04:00",
+        "end": "2025-07-10T14:36:24.531-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Width of the sidewalk in ft": "12.3",
+        "Street Elements": "Bench Plantation",
+        "Photo": "image-14_34_41.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Light poles Other",
+        "Street Elements 4": "Bench Plantation Furniture Other",
+        "Street Elements 5": "Tree pit Bench Other",
+        "Street Elements 6": "Other",
+        "_id": 514615329,
+        "_uuid": "6b2158ad-4460-42d6-b4c0-1376847e31df",
+        "_submission_time": "2025-07-10T18:36:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931971,
+          40.796715,
+          4.679610483673856
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:58.153-04:00",
+        "end": "2025-07-10T14:36:24.531-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Width of the sidewalk in ft": "12.3",
+        "Street Elements": "Bench Plantation",
+        "Photo": "image-14_34_41.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Light poles Other",
+        "Street Elements 4": "Bench Plantation Furniture Other",
+        "Street Elements 5": "Tree pit Bench Other",
+        "Street Elements 6": "Other",
+        "_id": 514615329,
+        "_uuid": "6b2158ad-4460-42d6-b4c0-1376847e31df",
+        "_submission_time": "2025-07-10T18:36:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932169,
+          40.796562,
+          -4.85397932414088
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:58.153-04:00",
+        "end": "2025-07-10T14:36:24.531-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Width of the sidewalk in ft": "12.3",
+        "Street Elements": "Bench Plantation",
+        "Photo": "image-14_34_41.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Light poles Other",
+        "Street Elements 4": "Bench Plantation Furniture Other",
+        "Street Elements 5": "Tree pit Bench Other",
+        "Street Elements 6": "Other",
+        "_id": 514615329,
+        "_uuid": "6b2158ad-4460-42d6-b4c0-1376847e31df",
+        "_submission_time": "2025-07-10T18:36:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.931941,
+          40.796636,
+          6.418445653282106
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:58.153-04:00",
+        "end": "2025-07-10T14:36:24.531-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Width of the sidewalk in ft": "12.3",
+        "Street Elements": "Bench Plantation",
+        "Photo": "image-14_34_41.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Light poles Other",
+        "Street Elements 4": "Bench Plantation Furniture Other",
+        "Street Elements 5": "Tree pit Bench Other",
+        "Street Elements 6": "Other",
+        "_id": 514615329,
+        "_uuid": "6b2158ad-4460-42d6-b4c0-1376847e31df",
+        "_submission_time": "2025-07-10T18:36:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932069,
+          40.796605,
+          5.1839737442214195
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:29:58.153-04:00",
+        "end": "2025-07-10T14:36:24.531-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Width of the sidewalk in ft": "12.3",
+        "Street Elements": "Bench Plantation",
+        "Photo": "image-14_34_41.jpg",
+        "Street Elements 2": "Fire Hydrant",
+        "Street Elements 3": "Light poles Other",
+        "Street Elements 4": "Bench Plantation Furniture Other",
+        "Street Elements 5": "Tree pit Bench Other",
+        "Street Elements 6": "Other",
+        "_id": 514615329,
+        "_uuid": "6b2158ad-4460-42d6-b4c0-1376847e31df",
+        "_submission_time": "2025-07-10T18:36:25",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932187,
+          40.796508,
+          5.259577263146639
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:34:14.183-04:00",
+        "end": "2025-07-10T14:36:52.192-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_36_45.jpg",
+        "Street Elements 2": "Plantation",
+        "Street Elements 3": "Parking",
+        "Street Elements 4": "Mail box",
+        "Street Elements 5": "Trashcan Trash bag",
+        "Street Elements 6": "Light poles Traffic signals",
+        "_id": 514615604,
+        "_uuid": "f801bad1-ba54-4b65-a6dd-e977b36f4856",
+        "_submission_time": "2025-07-10T18:36:53",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932143,
+          40.796533,
+          5.231215405038746
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:34:14.183-04:00",
+        "end": "2025-07-10T14:36:52.192-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_36_45.jpg",
+        "Street Elements 2": "Plantation",
+        "Street Elements 3": "Parking",
+        "Street Elements 4": "Mail box",
+        "Street Elements 5": "Trashcan Trash bag",
+        "Street Elements 6": "Light poles Traffic signals",
+        "_id": 514615604,
+        "_uuid": "f801bad1-ba54-4b65-a6dd-e977b36f4856",
+        "_submission_time": "2025-07-10T18:36:53",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932188,
+          40.796476,
+          5.248003779910505
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:34:14.183-04:00",
+        "end": "2025-07-10T14:36:52.192-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_36_45.jpg",
+        "Street Elements 2": "Plantation",
+        "Street Elements 3": "Parking",
+        "Street Elements 4": "Mail box",
+        "Street Elements 5": "Trashcan Trash bag",
+        "Street Elements 6": "Light poles Traffic signals",
+        "_id": 514615604,
+        "_uuid": "f801bad1-ba54-4b65-a6dd-e977b36f4856",
+        "_submission_time": "2025-07-10T18:36:53",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932154,
+          40.796377,
+          5.237062990665436
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:34:14.183-04:00",
+        "end": "2025-07-10T14:36:52.192-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_36_45.jpg",
+        "Street Elements 2": "Plantation",
+        "Street Elements 3": "Parking",
+        "Street Elements 4": "Mail box",
+        "Street Elements 5": "Trashcan Trash bag",
+        "Street Elements 6": "Light poles Traffic signals",
+        "_id": 514615604,
+        "_uuid": "f801bad1-ba54-4b65-a6dd-e977b36f4856",
+        "_submission_time": "2025-07-10T18:36:53",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93216,
+          40.796351,
+          5.234282494649946
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:34:14.183-04:00",
+        "end": "2025-07-10T14:36:52.192-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_36_45.jpg",
+        "Street Elements 2": "Plantation",
+        "Street Elements 3": "Parking",
+        "Street Elements 4": "Mail box",
+        "Street Elements 5": "Trashcan Trash bag",
+        "Street Elements 6": "Light poles Traffic signals",
+        "_id": 514615604,
+        "_uuid": "f801bad1-ba54-4b65-a6dd-e977b36f4856",
+        "_submission_time": "2025-07-10T18:36:53",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9322,
+          40.796388,
+          5.203092838637531
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:34:14.183-04:00",
+        "end": "2025-07-10T14:36:52.192-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Entry",
+        "Photo": "image-14_36_45.jpg",
+        "Street Elements 2": "Plantation",
+        "Street Elements 3": "Parking",
+        "Street Elements 4": "Mail box",
+        "Street Elements 5": "Trashcan Trash bag",
+        "Street Elements 6": "Light poles Traffic signals",
+        "_id": 514615604,
+        "_uuid": "f801bad1-ba54-4b65-a6dd-e977b36f4856",
+        "_submission_time": "2025-07-10T18:36:53",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932103,
+          40.796466,
+          5.126995756402627
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:36:26.863-04:00",
+        "end": "2025-07-10T14:40:49.175-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit Plantation",
+        "Photo": "image-14_39_9.jpg",
+        "Street Elements 2": "Furniture Other",
+        "Street Elements 3": "Signage Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Signage",
+        "_id": 514617764,
+        "_uuid": "930c5696-0190-4aeb-bf5b-67f9913682cc",
+        "_submission_time": "2025-07-10T18:40:50",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93215,
+          40.7964,
+          3.687611351467762
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:36:26.863-04:00",
+        "end": "2025-07-10T14:40:49.175-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit Plantation",
+        "Photo": "image-14_39_9.jpg",
+        "Street Elements 2": "Furniture Other",
+        "Street Elements 3": "Signage Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Signage",
+        "_id": 514617764,
+        "_uuid": "930c5696-0190-4aeb-bf5b-67f9913682cc",
+        "_submission_time": "2025-07-10T18:40:50",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932114,
+          40.796317,
+          3.9803139810131327
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:36:26.863-04:00",
+        "end": "2025-07-10T14:40:49.175-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit Plantation",
+        "Photo": "image-14_39_9.jpg",
+        "Street Elements 2": "Furniture Other",
+        "Street Elements 3": "Signage Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Signage",
+        "_id": 514617764,
+        "_uuid": "930c5696-0190-4aeb-bf5b-67f9913682cc",
+        "_submission_time": "2025-07-10T18:40:50",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932119,
+          40.796372,
+          3.9640476245704335
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:36:26.863-04:00",
+        "end": "2025-07-10T14:40:49.175-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit Plantation",
+        "Photo": "image-14_39_9.jpg",
+        "Street Elements 2": "Furniture Other",
+        "Street Elements 3": "Signage Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Signage",
+        "_id": 514617764,
+        "_uuid": "930c5696-0190-4aeb-bf5b-67f9913682cc",
+        "_submission_time": "2025-07-10T18:40:50",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932086,
+          40.796403,
+          0.9065635763469686
+        ]
+      },
+      "properties": {
+        "start": "2025-07-10T14:36:26.863-04:00",
+        "end": "2025-07-10T14:40:49.175-04:00",
+        "Name of Street": "Pleasant Ave",
+        "Street Elements": "Tree pit Plantation",
+        "Photo": "image-14_39_9.jpg",
+        "Street Elements 2": "Furniture Other",
+        "Street Elements 3": "Signage Traffic signals",
+        "Street Elements 4": "Trashcan",
+        "Street Elements 5": "Signage",
+        "_id": 514617764,
+        "_uuid": "930c5696-0190-4aeb-bf5b-67f9913682cc",
+        "_submission_time": "2025-07-10T18:40:50",
+        "_status": "submitted_via_web",
+        "__version__": "vn3Pm7YwLTzntx667qWWHG",
+        "_index": 51
+      }
+    }
+  ]
+}
