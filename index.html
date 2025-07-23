@@ -11,17 +11,20 @@
       height: 100%;
       font-family: sans-serif;
     }
-    header {
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 2;
-      background: #333;
-      color: #fff;
-      width: 100%;
-      padding: 0.5rem 1rem;
-      box-sizing: border-box;
-    }
+ header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background: black;
+  color: #fdfd00;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px #fdfd00;
+  animation: flicker 7s infinite;
+}
     #map {
       position: absolute;
       top: 50px;
@@ -29,18 +32,18 @@
       left: 0;
       right: 0;
     }
-    #sidebar {
-      position: absolute;
-      top: 50px;
-      left: 0;
-      width: 180px;
-      background: #eee;
-      padding: 1rem;
-      z-index: 3;
-      height: calc(100% - 50px);
-      overflow-y: auto;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.2);
-    }
+#sidebar {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 180px;
+  background: #eee;
+  padding: 6rem 1rem 1rem 1rem; /* added top padding */
+  z-index: 3;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
     #sidebar button {
       display: block;
       margin-bottom: 0.5rem;
@@ -237,15 +240,96 @@
       color: #555;
       font-style: italic;
     }
+    @keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 5px #fdfd00, 0 0 10px #fdfd00;
+  }
+  20%, 24%, 55% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+.title {
+  animation: flicker 7s infinite;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#opening-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: yellow;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+#opening-screen.slide-up {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.opening-box {
+  text-align: center;
+  animation: flicker 1.5s infinite;
+}
+
+#opening-screen h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px yellow;
+}
+
+#opening-screen button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: yellow;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#opening-screen button:hover {
+  background: #fff700;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 5px yellow, 0 0 20px yellow;
+  }
+  20%, 24%, 55% {
+    opacity: 0.4;
+    text-shadow: none;
+  }
+}
+
   </style>
 </head>
 <body>
   <header>
+    <div id="opening-screen">
+  <div class="opening-box">
     <h1>East Harlem: Street Elements Explorer</h1>
+    <button onclick="enterApp()">ENTER</button>
+  </div>
+</div>
+
+<h1 class="title">East Harlem: Street Elements Explorer</h1>
   </header>
   <div id="map"></div>
   <div id="sidebar">
-    <h3>Street Elements</h3>
     <button onclick="handleStreet('E120th Street')">E120th Street (31)</button>
     <button onclick="handleStreet('125th Street')">125th Street (19)</button>
     <button onclick="handleStreet('Pleasant Ave')">Pleasant Ave (29)</button>
@@ -420,16 +504,33 @@
         source: 'streets',
         paint: {
           'circle-radius': 6,
-          'circle-color': [
-            'match',
-            ['get', 'Street Elements'],
-            'Tree pit', '#f28cb1',
-            'Hydrant', '#f1f075',
-            'Bench', '#51bbd6',
-            'Entry', '#223b53',
-            'Entry Front yard', '#e87d3e',
-            '#ccc'
-          ]
+'circle-color': [
+  'match',
+  ['get', 'Street Elements'],
+  'Fire Hydrant', '#d7191c',
+  'Bench', '#2b83ba',
+  'Tree/Tree pit', '#1a9641',
+  'Light/Lighting', '#fdae61',
+  'Traffic/Signals', '#d9ef8b',
+  'Trash/Trashcan', '#66bd63',
+  'Entry/Entrance', '#a6d96a',
+  'Construction', '#f46d43',
+  'Fence', '#fdb863',
+  'Signage/Poles', '#fee08b',
+  'Mailbox/Mail', '#e66101',
+  'Bike/Citibike/Rack', '#b2182b',
+  'Parking', '#878787',
+  'Furniture', '#80cdc1',
+  'Manhole', '#3288bd',
+  'Plantation', '#c2e699',
+  'Busstop', '#9e0142',
+  'Stoop/Staircase', '#d53e4f',
+  'Front/Yard', '#fddbc7',
+  'Newspaper box', '#a50026',
+  'Bag', '#5e4fa2',
+  'Other', '#999999',
+  '#cccccc' // default
+]
         }
       });
       map.on('click', 'elements', (e) => {
@@ -443,6 +544,14 @@
       map.on('mouseenter', 'elements', () => map.getCanvas().style.cursor = 'pointer');
       map.on('mouseleave', 'elements', () => map.getCanvas().style.cursor = '');
     });
+    function enterApp() {
+  const opening = document.getElementById('opening-screen');
+  opening.classList.add('slide-up');
+  setTimeout(() => {
+    opening.style.display = 'none';
+  }, 1000); // same as transition duration
+}
+
     function handleStreet(name) {
       console.log('Street clicked:', name);
       currentStreet = name;
