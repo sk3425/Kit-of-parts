@@ -240,16 +240,6 @@
       color: #555;
       font-style: italic;
     }
-    @keyframes flicker {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-    opacity: 1;
-    text-shadow: 0 0 5px #fdfd00, 0 0 10px #fdfd00;
-  }
-  20%, 24%, 55% {
-    opacity: 0.4;
-    text-shadow: none;
-  }
-}
 .title {
   animation: flicker 7s infinite;
   font-weight: bold;
@@ -321,12 +311,12 @@
   <header>
     <div id="opening-screen">
   <div class="opening-box">
-    <h1>East Harlem: Street Elements Explorer</h1>
+    <h1>STREETSTEPS</h1>
     <button onclick="enterApp()">ENTER</button>
   </div>
 </div>
 
-<h1 class="title">East Harlem: Street Elements Explorer</h1>
+<h1 class="title">East Harlem: Street Steps</h1>
   </header>
   <div id="map"></div>
   <div id="sidebar">
@@ -598,13 +588,30 @@
     const kitOfParts = {
       'E120th Street': {
         count: 31,
-        cards: [
-          { name: 'A', image: 'A.PNG' },
-          { name: 'B', image: 'B.PNG' },
-          { name: 'C', image: 'C.PNG' },
-          { name: 'D', image: 'D.JPG' },
-          { name: 'E', image: 'E.JPG' }
-        ]
+cards: [
+  { name: 'A', image: 'A.PNG' },
+  { name: 'B', image: 'B.PNG' },
+  { name: 'C', image: 'C.PNG' },
+  { name: 'D', image: 'D.JPG' },
+  { name: 'E', image: 'E.JPG' },
+  { name: 'F', image: 'F.png' },
+  { name: 'G', image: 'G.png' },
+  { name: 'H', image: 'H.png' },
+  { name: 'I', image: 'I.png' },
+  { name: 'J', image: 'J.png' },
+  { name: 'K', image: 'K.png' },
+  { name: 'L', image: 'L.png' },
+  { name: 'M', image: 'M.png' },
+  { name: 'N', image: 'N.png' },
+  { name: 'O', image: 'O.png' },
+  { name: 'P', image: 'P.png' },
+  { name: 'Q', image: 'Q.png' },
+  { name: 'R', image: 'R.png' },
+  { name: 'S', image: 'S.png' },
+  { name: 'T', image: 'T.png' },
+  { name: 'U', image: 'U.png' },
+  { name: 'V', image: 'V.pn' }
+]
       },
       '125th Street': {
         count: 19,
